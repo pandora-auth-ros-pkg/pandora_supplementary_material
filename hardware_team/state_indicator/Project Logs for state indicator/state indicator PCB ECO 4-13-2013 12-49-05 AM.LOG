@@ -1,0 +1,123 @@
+Added Component: Designator=C1(CAPR5.08-7.8x3.2)
+Added Component: Designator=C2(CAPR5.08-7.8x3.2)
+Added Component: Designator=C3(CAPPR2-5x6.8)
+Added Component: Designator=C4(CAPPR2-5x6.8)
+Added Component: Designator=C5(CAPPR2-5x6.8)
+Added Component: Designator=C6(CAPPR2-5x6.8)
+Added Component: Designator=DS1(N-13)
+Added Component: Designator=HEADER1(HDR1X4)
+Added Component: Designator=ISP1(HDR2X3)
+Added Component: Designator=R1(RES10-7.8X2.8)
+Added Component: Designator=R2(RES10-7.8X2.8)
+Added Component: Designator=R3(RES10-7.8X2.8)
+Added Component: Designator=R4(RES10-7.8X2.8)
+Added Component: Designator=R5(RES10-7.8X2.8)
+Added Component: Designator=R6(RES10-7.8X2.8)
+Added Component: Designator=R7(RES10-7.8X2.8)
+Added Component: Designator=R8(RES10-7.8X2.8)
+Added Component: Designator=R9(RES10-7.8X2.8)
+Added Component: Designator=U1(DIP-20/D32.6)
+Added Component: Designator=U2(N016)
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=GND Pin=HEADER1-1
+Added Pin To Net: NetName=GND Pin=ISP1-6
+Added Pin To Net: NetName=GND Pin=U1-10
+Added Pin To Net: NetName=GND Pin=U2-15
+Added Net: Name=GND
+Added Pin To Net: NetName=MISO Pin=ISP1-1
+Added Pin To Net: NetName=MISO Pin=R7-2
+Added Pin To Net: NetName=MISO Pin=U1-18
+Added Net: Name=MISO
+Added Pin To Net: NetName=MOSI Pin=ISP1-4
+Added Pin To Net: NetName=MOSI Pin=R6-2
+Added Pin To Net: NetName=MOSI Pin=U1-17
+Added Net: Name=MOSI
+Added Pin To Net: NetName=NetC3_1 Pin=C3-1
+Added Pin To Net: NetName=NetC3_1 Pin=U2-1
+Added Net: Name=NetC3_1
+Added Pin To Net: NetName=NetC3_2 Pin=C3-2
+Added Pin To Net: NetName=NetC3_2 Pin=U2-3
+Added Net: Name=NetC3_2
+Added Pin To Net: NetName=NetC4_1 Pin=C4-1
+Added Pin To Net: NetName=NetC4_1 Pin=U2-2
+Added Net: Name=NetC4_1
+Added Pin To Net: NetName=NetC5_1 Pin=C5-1
+Added Pin To Net: NetName=NetC5_1 Pin=U2-4
+Added Net: Name=NetC5_1
+Added Pin To Net: NetName=NetC5_2 Pin=C5-2
+Added Pin To Net: NetName=NetC5_2 Pin=U2-5
+Added Net: Name=NetC5_2
+Added Pin To Net: NetName=NetC6_2 Pin=C6-2
+Added Pin To Net: NetName=NetC6_2 Pin=U2-6
+Added Net: Name=NetC6_2
+Added Pin To Net: NetName=NetDS1_2 Pin=DS1-2
+Added Pin To Net: NetName=NetDS1_2 Pin=R8-1
+Added Net: Name=NetDS1_2
+Added Pin To Net: NetName=NetDS1_3 Pin=DS1-3
+Added Pin To Net: NetName=NetDS1_3 Pin=R3-1
+Added Net: Name=NetDS1_3
+Added Pin To Net: NetName=NetDS1_5 Pin=DS1-5
+Added Pin To Net: NetName=NetDS1_5 Pin=R4-1
+Added Net: Name=NetDS1_5
+Added Pin To Net: NetName=NetDS1_10 Pin=DS1-10
+Added Pin To Net: NetName=NetDS1_10 Pin=R1-1
+Added Net: Name=NetDS1_10
+Added Pin To Net: NetName=NetDS1_11 Pin=DS1-11
+Added Pin To Net: NetName=NetDS1_11 Pin=R5-1
+Added Net: Name=NetDS1_11
+Added Pin To Net: NetName=NetDS1_13 Pin=DS1-13
+Added Pin To Net: NetName=NetDS1_13 Pin=R6-1
+Added Net: Name=NetDS1_13
+Added Pin To Net: NetName=NetDS1_14 Pin=DS1-14
+Added Pin To Net: NetName=NetDS1_14 Pin=R2-1
+Added Net: Name=NetDS1_14
+Added Pin To Net: NetName=NetDS1_15 Pin=DS1-15
+Added Pin To Net: NetName=NetDS1_15 Pin=R7-1
+Added Net: Name=NetDS1_15
+Added Pin To Net: NetName=NetR1_2 Pin=R1-2
+Added Pin To Net: NetName=NetR1_2 Pin=U1-12
+Added Net: Name=NetR1_2
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=NetR2_2 Pin=U1-13
+Added Net: Name=NetR2_2
+Added Pin To Net: NetName=NetR3_2 Pin=R3-2
+Added Pin To Net: NetName=NetR3_2 Pin=U1-14
+Added Net: Name=NetR3_2
+Added Pin To Net: NetName=NetR4_2 Pin=R4-2
+Added Pin To Net: NetName=NetR4_2 Pin=U1-15
+Added Net: Name=NetR4_2
+Added Pin To Net: NetName=NetR5_2 Pin=R5-2
+Added Pin To Net: NetName=NetR5_2 Pin=U1-16
+Added Net: Name=NetR5_2
+Added Pin To Net: NetName=NetR8_2 Pin=R8-2
+Added Pin To Net: NetName=NetR8_2 Pin=U1-19
+Added Net: Name=NetR8_2
+Added Pin To Net: NetName=R232 Pin=HEADER1-2
+Added Pin To Net: NetName=R232 Pin=U2-8
+Added Net: Name=R232
+Added Pin To Net: NetName=RESET Pin=ISP1-5
+Added Pin To Net: NetName=RESET Pin=R9-2
+Added Pin To Net: NetName=RESET Pin=U1-1
+Added Net: Name=RESET
+Added Pin To Net: NetName=RTINY Pin=U2-9
+Added Net: Name=RTINY
+Added Pin To Net: NetName=SCK Pin=ISP1-3
+Added Net: Name=SCK
+Added Pin To Net: NetName=T232 Pin=HEADER1-3
+Added Pin To Net: NetName=T232 Pin=U2-7
+Added Net: Name=T232
+Added Pin To Net: NetName=TTINY Pin=U2-10
+Added Net: Name=TTINY
+Added Pin To Net: NetName=VCC Pin=C1-1
+Added Pin To Net: NetName=VCC Pin=C2-1
+Added Pin To Net: NetName=VCC Pin=C4-2
+Added Pin To Net: NetName=VCC Pin=HEADER1-4
+Added Pin To Net: NetName=VCC Pin=ISP1-2
+Added Pin To Net: NetName=VCC Pin=R9-1
+Added Pin To Net: NetName=VCC Pin=U1-20
+Added Pin To Net: NetName=VCC Pin=U2-16
+Added Net: Name=VCC
+Added Class: Name=state indicator
+Added Room: Name=state indicator

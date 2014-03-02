@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=NetISP1_3 Pin=ISP1-3
+Removed Pin From Net: NetName=RESET Pin=ISP1-5
+Removed Pin From Net: NetName=SCK Pin=R10-1
+Added Pin To Net: NetName=SCK Pin=ISP1-3
+Added Pin To Net: NetName=NetISP1_3 Pin=ISP1-5
+Added Pin To Net: NetName=RESET Pin=R10-1
+Change Net Name : Old Net Name=NetISP1_3 New Net Name=NetISP1_5

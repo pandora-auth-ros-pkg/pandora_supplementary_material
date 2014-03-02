@@ -1,0 +1,14 @@
+Added Component: Designator=U2(N016)
+Added Pin To Net: NetName=NetC3_1 Pin=U2-1
+Added Pin To Net: NetName=NetC4_1 Pin=U2-2
+Added Pin To Net: NetName=NetC3_2 Pin=U2-3
+Added Pin To Net: NetName=NetC5_1 Pin=U2-4
+Added Pin To Net: NetName=NetC5_2 Pin=U2-5
+Added Pin To Net: NetName=NetC6_2 Pin=U2-6
+Added Pin To Net: NetName=T232 Pin=U2-7
+Added Pin To Net: NetName=R232 Pin=U2-8
+Added Pin To Net: NetName=RTINY Pin=U2-9
+Added Pin To Net: NetName=TTINY Pin=U2-10
+Added Pin To Net: NetName=GND Pin=U2-15
+Added Pin To Net: NetName=VCC Pin=U2-16
+Added Member To Class: ClassName=state indicator Member=Component U2 MAX232N

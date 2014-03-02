@@ -1,0 +1,8 @@
+Change Net Name : Old Net Name=12 New Net Name=SEG_A
+Change Net Name : Old Net Name=13 New Net Name=SEG_F
+Change Net Name : Old Net Name=14 New Net Name=SEG_E
+Change Net Name : Old Net Name=15 New Net Name=SEG_B
+Change Net Name : Old Net Name=16 New Net Name=SEG_G
+Change Net Name : Old Net Name=MISO New Net Name=SEG_D_MISO
+Change Net Name : Old Net Name=MOSI New Net Name=SEG_C_MOSI
+Change Net Name : Old Net Name=SCK New Net Name=SEG_DP_SCK

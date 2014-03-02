@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=VCC Pin=ISP1-2
+Removed Pin From Net: NetName=GND Pin=ISP1-6
+Added Component: Designator=R11(RES10-7.8X2.8)
+Added Component: Designator=R12(RES10-7.8X2.8)
+Added Pin To Net: NetName=VCC Pin=R11-2
+Added Pin To Net: NetName=GND Pin=R12-2
+Added Pin To Net: NetName=NetISP1_2 Pin=ISP1-2
+Added Pin To Net: NetName=NetISP1_2 Pin=R11-1
+Added Net: Name=NetISP1_2
+Added Pin To Net: NetName=NetISP1_6 Pin=ISP1-6
+Added Pin To Net: NetName=NetISP1_6 Pin=R12-1
+Added Net: Name=NetISP1_6
+Added Member To Class: ClassName=state indicator Member=Component R11 Res Semi
+Added Member To Class: ClassName=state indicator Member=Component R12 Res Semi

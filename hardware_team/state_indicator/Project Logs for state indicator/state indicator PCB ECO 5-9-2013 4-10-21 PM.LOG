@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=VCC Pin=D1-1
+Removed Pin From Net: NetName=GND Pin=D2-2
+Removed Pin From Net: NetName=VCC Pin=D3-1
+Removed Pin From Net: NetName=GND Pin=D4-2
+Added Component: Designator=R13(RES10-7.8X2.8)
+Added Component: Designator=R14(RES10-7.8X2.8)
+Added Component: Designator=R15(RES10-7.8X2.8)
+Added Component: Designator=R16(RES10-7.8X2.8)
+Added Pin To Net: NetName=VCC Pin=R13-1
+Added Pin To Net: NetName=GND Pin=R14-1
+Added Pin To Net: NetName=VCC Pin=R15-1
+Added Pin To Net: NetName=GND Pin=R16-1
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=R13-2
+Added Net: Name=NetD1_1
+Added Pin To Net: NetName=NetD2_2 Pin=D2-2
+Added Pin To Net: NetName=NetD2_2 Pin=R14-2
+Added Net: Name=NetD2_2
+Added Pin To Net: NetName=NetD3_1 Pin=D3-1
+Added Pin To Net: NetName=NetD3_1 Pin=R15-2
+Added Net: Name=NetD3_1
+Added Pin To Net: NetName=NetD4_2 Pin=D4-2
+Added Pin To Net: NetName=NetD4_2 Pin=R16-2
+Added Net: Name=NetD4_2
+Added Member To Class: ClassName=state indicator Member=Component R13 Res Semi
+Added Member To Class: ClassName=state indicator Member=Component R14 Res Semi
+Added Member To Class: ClassName=state indicator Member=Component R15 Res Semi
+Added Member To Class: ClassName=state indicator Member=Component R16 Res Semi

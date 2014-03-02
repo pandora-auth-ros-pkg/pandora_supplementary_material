@@ -1,0 +1,14 @@
+Change Component Footprint: Designator=C3 Old Footprint=CAPPR2-5X6.8 New Footprint=CAPPR2-5x6.8
+Change Component Footprint: Designator=C4 Old Footprint=CAPPR2-5X6.8 New Footprint=CAPPR2-5x6.8
+Change Component Footprint: Designator=C5 Old Footprint=CAPPR2-5X6.8 New Footprint=CAPPR2-5x6.8
+Change Component Footprint: Designator=C6 Old Footprint=CAPPR2-5X6.8 New Footprint=CAPPR2-5x6.8
+Change Component Footprint: Designator=C1 Old Footprint=CAPR5.08-7.8X3.2 New Footprint=CAPR5.08-7.8x3.2
+Change Component Footprint: Designator=C2 Old Footprint=CAPR5.08-7.8X3.2 New Footprint=CAPR5.08-7.8x3.2
+Change Component Library : Designator=R1 Old Library=stabilizer.SCHLIB New Library=state indicator.IntLib
+Change Component Library : Designator=R2 Old Library=stabilizer.SCHLIB New Library=state indicator.IntLib
+Change Component Library : Designator=R3 Old Library=stabilizer.SCHLIB New Library=state indicator.IntLib
+Change Component Library : Designator=R4 Old Library=stabilizer.SCHLIB New Library=state indicator.IntLib
+Change Component Library : Designator=R5 Old Library=stabilizer.SCHLIB New Library=state indicator.IntLib
+Change Component Library : Designator=R6 Old Library=stabilizer.SCHLIB New Library=state indicator.IntLib
+Change Component Library : Designator=R7 Old Library=stabilizer.SCHLIB New Library=state indicator.IntLib
+Change Component Library : Designator=R8 Old Library=stabilizer.SCHLIB New Library=state indicator.IntLib

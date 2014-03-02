@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=VCC Pin=R11-2
+Removed Pin From Net: NetName=GND Pin=R12-2
+Removed Member From Class: ClassName=state indicator Member=R11
+Removed Member From Class: ClassName=state indicator Member=R11
+Removed Member From Class: ClassName=state indicator Member=R12
+Added Pin To Net: NetName=VCC Pin=ISP1-2
+Added Pin To Net: NetName=GND Pin=ISP1-6

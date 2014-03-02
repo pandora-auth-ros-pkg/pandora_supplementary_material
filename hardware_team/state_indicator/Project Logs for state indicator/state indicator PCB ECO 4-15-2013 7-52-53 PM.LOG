@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=NetR2_2 Pin=R2-2
+Removed Pin From Net: NetName=NetR3_2 Pin=R3-2
+Removed Pin From Net: NetName=NetR4_2 Pin=R4-2
+Removed Pin From Net: NetName=NetR5_2 Pin=R5-2
+Removed Pin From Net: NetName=MOSI Pin=R6-2
+Removed Pin From Net: NetName=MISO Pin=R7-2
+Removed Pin From Net: NetName=NetR8_2 Pin=R8-2
+Removed Pin From Net: NetName=NetR1_2 Pin=U1-12
+Removed Pin From Net: NetName=NetR2_2 Pin=U1-13
+Removed Pin From Net: NetName=NetR3_2 Pin=U1-14
+Removed Pin From Net: NetName=NetR4_2 Pin=U1-15
+Removed Pin From Net: NetName=NetR5_2 Pin=U1-16
+Removed Pin From Net: NetName=NetR8_2 Pin=U1-19
+Change Component Comment : Designator=R1 Old Comment=Res Semi New Comment=es Semi
+Added Pin To Net: NetName=NetR8_2 Pin=U1-12
+Added Pin To Net: NetName=NetR5_2 Pin=U1-13
+Added Pin To Net: NetName=NetR4_2 Pin=U1-14
+Added Pin To Net: NetName=NetR3_2 Pin=U1-15
+Added Pin To Net: NetName=NetR2_2 Pin=U1-16
+Added Pin To Net: NetName=NetR1_2 Pin=U1-19
+Change Net Name : Old Net Name=NetR1_2 New Net Name=19
+Change Net Name : Old Net Name=NetR2_2 New Net Name=16
+Change Net Name : Old Net Name=NetR3_2 New Net Name=15
+Change Net Name : Old Net Name=NetR4_2 New Net Name=14
+Change Net Name : Old Net Name=NetR5_2 New Net Name=13
+Change Net Name : Old Net Name=NetR8_2 New Net Name=12

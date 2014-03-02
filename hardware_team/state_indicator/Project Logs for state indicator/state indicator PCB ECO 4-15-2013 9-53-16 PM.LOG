@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=T232 Pin=HEADER1-2
+Removed Pin From Net: NetName=R232 Pin=HEADER1-3
+Added Pin To Net: NetName=R232 Pin=HEADER1-2
+Added Pin To Net: NetName=T232 Pin=HEADER1-3
