@@ -43,25 +43,34 @@
 #include <stdlib.h>
 #include <boost/lexical_cast.hpp>
 
+// The number of active filters, or else, the number of columns of the .csv
+// file, minus one
+#define SIZE 8
+//#define SIZE 4
+
+// The .csv file containing the dataset
+#define DATASET "dataset2.csv"
+//#define DATASET "dummy.csv"
+
 /**
   @brief Given a vector of probabilities, this method adds weigths to each
   one, in order to find a total probability, according to the formula
-  p = Σi (2 ^ i * p_i)
+  p = Σi (base ^ i * p_i)
   @param[in] probabilities [const std::vector<float>&] The vector of
   probabilities
+  @param[in] base [const float&] The base of the weights
   @return [float] The total probability
  **/
-float validationProcess(const std::vector<float>& probabilities)
+float validationProcess(const std::vector<float>& probabilities,
+  const float& base)
 {
   float result = 0.0;
   for (int i = 0; i < probabilities.size(); i++)
   {
-    result += pow(2, i) * probabilities[i];
+    result += pow(base, i) * probabilities[i];
   }
 
-  result /= (pow(2, probabilities.size()) - 1);
-
-  return result;
+  return result / (pow(base, probabilities.size()) - 1);
 }
 
 
@@ -89,7 +98,7 @@ void print(const int* v, const int& size)
 
 /**
   @brief This method opens a .csv file that is in the following form:
-  In each line there are 8 comma separated values. The first seven denote
+  In each line there are SIZE comma separated values. The first seven denote
   a probability. The final one denotes whether a particular instance
   represents a valid hole (1) or not (0). In then finds the mean square error
   for all the instances in the file for one particular permutation at a time,
@@ -100,6 +109,7 @@ void print(const int* v, const int& size)
   @param[in,out] indices [int*] The array of ints. Represents a permutation.
   @param[in] start [const int]
   @param[in] n [const int]
+  @param[in] base [const float&] The base of the weights
   @param[in,out] meanPermutationErrorVector [std::vector<float>*] The vector
   that holds the mean square error of all the instances in a dataset
   for each permutation
@@ -110,19 +120,26 @@ void print(const int* v, const int& size)
 void permute(int *indices,
   const int start,
   const int n,
+  const float& base,
   std::vector<float>* meanPermutationErrorVector,
   std::vector<std::vector<int> >* minIndices)
 {
   if (start == n - 1)
   {
+    // Print the current permutation
+    //print(indices, SIZE);
+
     // Open the dataset
-    std::fstream myfile("dataset.csv", std::ios::in);
+    std::fstream myfile(DATASET, std::ios::in);
 
     // The number of lines of the dataset
     int lines = 0;
 
     // This permutation's overall error over the entire dataset
     float meanPermutationError = 0.0;
+
+    // Thie permutation's overall mean probability
+    float meanPermutationProbability = 0.0;
 
     // Read every line from the stream
     std::string line;
@@ -141,41 +158,34 @@ void permute(int *indices,
 
       // read every element from the line that is seperated by commas
       // and put it into the vector or strings
-      while( std::getline(csvStream, csvElement, ',') )
+      while( std::getline(csvStream, csvElement, ';') )
       {
         probabilities.push_back(static_cast<float>(atof(csvElement.c_str())));
       }
 
-      // The label of this hole
-      int label = probabilities[8];
-
       // Erase the last element - it's the label
-      probabilities.erase(probabilities.begin() + 8);
+      probabilities.erase(probabilities.begin() + SIZE);
 
       // The vector of probabilities by order of the permutations
       std::vector<float> permutatedProbabilities;
-      for (int i = 0; i < 8; i++)
+      for (int i = 0; i < SIZE; i++)
       {
         permutatedProbabilities.push_back(probabilities[indices[i]]);
       }
 
       // Find the probability of this permutation
-      float probability = validationProcess(permutatedProbabilities);
+      float probability = validationProcess(permutatedProbabilities, base);
+
+      // Add the probability produced by this line
+      meanPermutationProbability += probability;
+
+      // The label of this hole
+      int label = probabilities[SIZE];
 
       // Find the mean square error of the probability
-      // that goes with this permutation
-      float meanSquaredError = 0.0;
-      if (label == 1)
-      {
-        meanSquaredError = pow(1 - probability, 2);
-      }
-      else if (label == 0)
-      {
-        meanSquaredError = pow(probability, 2);
-      }
-
-      // Add this error to the overall permutation error
-      meanPermutationError += meanSquaredError;
+      // that goes with this permutation and
+      // add it to the overall permutation error
+      meanPermutationError += pow(label - probability, 2);
     }
 
     // The final error for this permutation
@@ -184,9 +194,12 @@ void permute(int *indices,
     // Push it back into the vector where each of the mean errors are located
     meanPermutationErrorVector->push_back(meanPermutationError);
 
+    // The final probability of this permutation
+    meanPermutationProbability /= lines;
+
     // The indices of this permutation
     std::vector<int> minIndicesPermutation;
-    for (int i = 0; i < 8; i++)
+    for (int i = 0; i < SIZE; i++)
     {
       minIndicesPermutation.push_back(indices[i]);
     }
@@ -205,7 +218,7 @@ void permute(int *indices,
       indices[i] = indices[start];
       indices[start] = tmp;
 
-      permute(indices, start + 1, n, meanPermutationErrorVector, minIndices);
+      permute(indices, start + 1, n, base, meanPermutationErrorVector, minIndices);
 
       indices[start] = indices[i];
       indices[i] = tmp;
@@ -217,39 +230,49 @@ void permute(int *indices,
 
 int main(int argc, char** argv)
 {
-  // Initialize the array of the filters' indices
-  int indices[] = {0, 1, 2, 3, 4, 5, 6, 7};
-
-  // The vector of mean errors per permutation
-  std::vector<float> mpev;
-
-  // The vector of indices that goes along with each mean error
-  std::vector<std::vector<int> > ind;
-  permute(indices, 0, sizeof(indices) / sizeof(int), &mpev, &ind);
-
-
-  // The minimum permutation error
-  float min = 10.0;
-
-  // .. and its index inside the indices vector
-  int idx = 0;
-
-  // Find the mean permutation error and its corresponding permutation
-  for (int p = 0; p < mpev.size(); p++)
+  for (int b = 1; b <= 10; b++)
   {
-    if (mpev[p] < min)
+    // Initialize the array of the filters' indices
+    int indices[] = {0, 1, 2, 3, 4, 5, 6, 7};
+    //int indices[] = {0, 1, 2, 3};
+
+    float base = 1 + static_cast<float>(b) / 10;
+
+    // The vector of mean errors per permutation
+    std::vector<float> mpev;
+
+    // The vector of indices that goes along with each mean error
+    std::vector<std::vector<int> > ind;
+    permute(indices, 0, sizeof(indices) / sizeof(int), base, &mpev, &ind);
+
+
+    // The minimum permutation error
+    float min = 1000000.0;
+
+    // .. and its index inside the indices vector
+    int idx = 0;
+
+    // Find the min permutation error and its corresponding permutation
+    for (int p = 0; p < mpev.size(); p++)
     {
-      min = mpev[p];
-      idx = p;
+      if (mpev[p] < min)
+      {
+        min = mpev[p];
+        idx = p;
+      }
     }
-  }
 
-  std::cout << "min: " << min << std::endl;
-  std::cout << "permutation: " << std::endl;
+    std::cout << "------------------------------" << std::endl;
+    std::cout << "base: " << base << std::endl;
+    std::cout << "min error: " << min << std::endl;
+    std::cout << "permutation: ";
 
-  for (int i = 0; i < 8; i++)
-  {
-    std::cout << ind[idx][i] << " " ;
+    for (int i = 0; i < SIZE; i++)
+    {
+      std::cout << ind[idx][i] << " " ;
+    }
+
+    std::cout << std::endl;
   }
 
   return 0;
