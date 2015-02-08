@@ -1,0 +1,156 @@
+#!/usr/bin/env python
+"""
+Use this script in order to create an 'extra_files.yaml' easily.
+Remember to run it each time you commit new changes, because the md5sums
+change every time.
+Copy the 'extra_files.yaml' file to the desired repo, do not commit it
+in this repo.
+Run the script and follow the instructions.
+
+More documentation:
+https://github.com/pandora-auth-ros-pkg/pandora_docs/wiki/Download-large-files-in-CMakeLists
+
+Author: Chris Zalidis <zalidis@gmail.com>
+"""
+from __future__ import print_function
+import os
+import sys
+import yaml
+import glob
+import hashlib
+
+#Python 3.x compatibility
+try: input = raw_input
+except NameError: pass
+
+__location__ = os.path.realpath(
+    os.path.join(os.getcwd(), os.path.dirname(__file__)))
+
+def main():
+    print("URL to the server hosting the files.\n",
+            "If you don't know what is that you should probably enter:",
+            "'http://downloads.pandora.ee.auth.gr/data'")
+    while True:
+        try:
+            url = input('URL: ')
+        except (KeyboardInterrupt, EOFError):
+            print('\nUser aborted!')
+            return 1
+        if url.startswith('http') or url.startswith('file'):
+            break
+        print("Not valid URL! Should start with 'http' or 'file'")
+
+    print("Paths to your files (relative to this script).\n",
+            "Examples: vision/hole_detector/walls or vision/model.xml",
+            "or vision/victim/images/*.png\n",
+            "You can add multiple space separated entries.")
+    while True:
+        paths = None
+        try:
+            paths = input('Paths: ')
+        except (KeyboardInterrupt, EOFError):
+            print('\nUser aborted!')
+            return 1
+        if paths:
+            break
+
+    real_files = []
+    paths = paths.split()
+    # Iterating the ugly way in order to add more paths while looping
+    index = 0
+    while index < len(paths):
+        if '*' in paths[index]:
+            paths.extend(glob.glob(paths[index]))
+            index += 1
+            continue
+        realpath = os.path.join(__location__, paths[index])
+        if os.path.isfile(paths[index]):
+            real_files.append(realpath)
+        for root, dirs, files in os.walk(realpath):
+            for name in files:
+                real_files.append(os.path.join(root, name))
+        index += 1
+
+    if not real_files:
+        print('Warning: No files match the given paths!')
+        print('Aborting...')
+        return 1
+
+    print("These files are considered:")
+    for f in real_files:
+        print(f)
+
+    while True:
+        try:
+            cor = input('Is that correct? [yN]: ')
+        except (KeyboardInterrupt, EOFError):
+            print('\nUser aborted!')
+            return 1
+        if cor in ['y', 'Y']:
+            break
+        elif cor in ['n', 'N']:
+            print('Aborting...')
+            return 1
+
+    print("What is the destination of these files?\n",
+            "Examples: faces or faces/$dirname or $PROJECT_SOURCE_DIR/data\n",
+            "If left blank, the files will be downloaded to the same directory",
+            "as the yaml file")
+    destination = input('Destination: ')
+
+    print("Is these files optional?\n",
+            "Meaning: if we can not download them, we are not gonna fail the build")
+    while True:
+        try:
+            optional = input('Optional [yN]: ')
+        except (KeyboardInterrupt, EOFError):
+            print('\nUser aborted!')
+            return 1
+
+        if optional in ['y', 'Y']:
+            opt = True
+            break
+        elif optional in ['n', 'N']:
+            opt = False
+            break
+
+    yml = {}
+    yml['files'] = []
+
+    # constuct uris and fill the dict
+    for path in real_files:
+        temp_dict = {}
+        temp_dict['url'] = os.path.join(url, path.lstrip(__location__))
+        if destination:
+            fixed_destination = destination
+            if destination.endswith('$dirname'):
+                fixed_destination = os.path.join(
+                                        destination.strip('$dirname'),
+                                        os.path.basename(os.path.dirname(path)))
+            temp_dict['destination'] = fixed_destination
+        # calculate md5sum
+        with open(path, 'rb') as f:
+            md5value = hashlib.md5()
+            while True:
+                buf = f.read(4096)
+                if not buf:
+                    break
+                md5value.update(buf)
+        temp_dict['md5'] = md5value.hexdigest()
+        # if not optional don't show
+        if opt:
+            temp_dict['optional'] = True
+
+        yml['files'].append(temp_dict)
+
+    # write results to a yaml file
+    path_to_extra = os.path.join(__location__, 'extra_files.yaml')
+    with open(path_to_extra, 'w+') as f:
+        f.write(yaml.safe_dump(yml, default_flow_style=False))
+
+    print('All well. I am happy, you should be too!')
+    print('You can find your extras file here: %s' % path_to_extra)
+    return 0
+
+if __name__ == '__main__':
+    sys.exit(main())
