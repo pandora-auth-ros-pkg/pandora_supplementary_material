@@ -1,0 +1,7 @@
+Image : 0 = 95.4
+Image : 1 = 96.7
+Image : 2 = 98.9
+Image : 3 = 106.7
+Image : 4 = 93.3
+Image : 5 = 93.3
+Image : 6 = 104.7
