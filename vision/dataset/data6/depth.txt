@@ -1,7 +1,0 @@
-Image : 0 = 60.6
-Image : 1 = 0.0
-Image : 2 = 58.7
-Image : 3 = 0.0
-Image : 4 = 63.7
-Image : 5 = 68.3
-Image : 6 = 70.7
