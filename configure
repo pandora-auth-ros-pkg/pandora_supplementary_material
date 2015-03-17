@@ -125,7 +125,7 @@ def main():
             fixed_destination = destination
             if destination.endswith('$dirname'):
                 fixed_destination = os.path.join(
-                                        destination.strip('$dirname'),
+                                        destination.replace('$dirname', ''),
                                         os.path.basename(os.path.dirname(path)))
             temp_dict['destination'] = fixed_destination
         # calculate md5sum
