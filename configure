@@ -120,7 +120,7 @@ def main():
     # constuct uris and fill the dict
     for path in real_files:
         temp_dict = {}
-        temp_dict['url'] = os.path.join(url, path.lstrip(__location__))
+        temp_dict['url'] = os.path.join(url, os.path.relpath(path, __location__))
         if destination:
             fixed_destination = destination
             if destination.endswith('$dirname'):
