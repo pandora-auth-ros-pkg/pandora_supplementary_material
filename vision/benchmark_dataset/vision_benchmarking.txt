@@ -1,14 +1,17 @@
-# Descriptor for a set of images used in benchmarking tests. Distances vary from 0.5 meters to 3.0 meters.
-# Horizontal angles vary from -60 to 60 degrees and vertical angles vary from -30 to 30 degrees.
+# Descriptor for a set of images used in benchmarking tests. Distances 
+# vary from 0.5 meters to 3.0 meters.
+# Horizontal angles vary from -60 to 60 degrees and vertical angles 
+# vary from -30 to 30 degrees.
 # The dataset is applied to the following algorithms for benchmarking:
 #   QR detection
 #   LandoltC detection
 #   Hazmat detection
 #   Hole detection
 #   Victim detection
-# The dataset contains data for 215 images. There are no missing values.
-
-imageName, algorithm, distance, horAngle, verAngle
+# The dataset contains data for 397 images. 
+# Name Gaps: 0021, 0023, 0224, 0225. Those gaps will be corrected. 
+# There are no missing values.
+# imageName, algorithm, distance, horAngle, verAngle
 frame0001.png, QR, 0.5, 0, 0 
 frame0002.png, QR, 0.5, -30, 0 
 frame0003.png, QR, 0.5, -60, 0 
@@ -74,7 +77,7 @@ frame0063.png, LandoltC, 1.0, 30, 0
 frame0064.png, LandoltC, 1.0, -30, 0
 frame0065.png, LandoltC, 1.0, 60, 0
 frame0066.png, LandoltC, 1.0, -60, 0
-frame0067.png, LandoltC, 1.0, 0, 30 ?
+frame0067.png, LandoltC, 1.0, 0, 30
 frame0068.png, LandoltC, 1.0, 0, 30
 frame0069.png, LandoltC, 1.0, 30, 30
 frame0070.png, LandoltC, 1.0, -30, 30
@@ -223,3 +226,186 @@ frame0212.png, Hazmat, 0.5, 60, 30
 frame0213.png, Hazmat, 0.5, -30, 30
 frame0214.png, Hazmat, 0.5, -60, 30
 frame0215.png, Hazmat, 0.5, -60, 30
+frame0221.png, hole, 1.00, 0, 0
+depthFrame0221.png, hole, 1.00, 0, 0
+thermalFrame0221.pgm, hole, 1.00, 0, 0
+frame0245.png, hole, 1.00, -30, 0
+depthFrame0245.png, hole, 1.00, -30, 0
+thermalFrame0245.pgm, hole, 1.00, -30, 0
+frame0219.png, hole, 0.50, -30, 0
+depthFrame0219.png, hole, 0.50, -30, 0
+thermalFrame0219.pgm, hole, 0.50, -30, 0
+frame0243.png, hole, 1.00, 30, 0
+depthFrame0243.png, hole, 1.00, 30, 0
+thermalFrame0243.pgm, hole, 1.00, 30, 0
+frame0264.png, hole, 1.00, 60, 0
+depthFrame0264.png, hole, 1.00, 60, 0
+thermalFrame0264.pgm, hole, 1.00, 60, 0
+frame0270.png, hole, 2.00, -30, 0
+depthFrame0270.png, hole, 2.00, -30, 0
+thermalFrame0270.pgm, hole, 2.00, -30, 0
+frame0218.png, hole, 0.50, -60, 0
+depthFrame0218.png, hole, 0.50, -60, 0
+thermalFrame0218.pgm, hole, 0.50, -60, 0
+frame0252.png, hole, 3.00, 0, 0
+depthFrame0252.png, hole, 3.00, 0, 0
+thermalFrame0252.pgm, hole, 3.00, 0, 0
+frame0276.png, hole, 3.00, 30, 0
+depthFrame0276.png, hole, 3.00, 30, 0
+thermalFrame0276.pgm, hole, 3.00, 30, 0
+frame0216.png, hole, 0.50, 0, 0
+depthFrame0216.png, hole, 0.50, 0, 0
+thermalFrame0216.pgm, hole, 0.50, 0, 0
+frame0217.png, hole, 0.50, 30, 0
+depthFrame0217.png, hole, 0.50, 30, 0
+thermalFrame0217.pgm, hole, 0.50, 30, 0
+frame0250.png, hole, 2.00, -30, 0
+depthFrame0250.png, hole, 2.00, -30, 0
+thermalFrame0250.pgm, hole, 2.00, -30, 0
+frame0255.png, hole, 3.00, 30, 0
+depthFrame0255.png, hole, 3.00, 30, 0
+thermalFrame0255.pgm, hole, 3.00, 30, 0
+frame0253.png, hole, 3.00, -30, 0
+depthFrame0253.png, hole, 3.00, -30, 0
+thermalFrame0253.pgm, hole, 3.00, -30, 0
+frame0275.png, hole, 3.00, -60, 0
+depthFrame0275.png, hole, 3.00, -60, 0
+thermalFrame0275.pgm, hole, 3.00, -60, 0
+frame0226.png, hole, 1.00, -60, 0
+depthFrame0226.png, hole, 1.00, -60, 0
+thermalFrame0226.pgm, hole, 1.00, -60, 0
+frame0274.png, hole, 3.00, -30, 0
+depthFrame0274.png, hole, 3.00, -30, 0
+thermalFrame0274.pgm, hole, 3.00, -30, 0
+frame0251.png, hole, 2.00, -60, 0
+depthFrame0251.png, hole, 2.00, -60, 0
+thermalFrame0251.pgm, hole, 2.00, -60, 0
+frame0248.png, hole, 2.00, 30, 0
+depthFrame0248.png, hole, 2.00, 30, 0
+thermalFrame0248.pgm, hole, 2.00, 30, 0
+frame0223.png, hole, 1.00, 60, 0
+depthFrame0223.png, hole, 1.00, 60, 0
+thermalFrame0223.pgm, hole, 1.00, 60, 0
+frame0265.png, hole, 1.00, -30, 0
+depthFrame0265.png, hole, 1.00, -30, 0
+thermalFrame0265.pgm, hole, 1.00, -30, 0
+frame0238.png, hole, 0.50, 30, 0
+depthFrame0238.png, hole, 0.50, 30, 0
+thermalFrame0238.pgm, hole, 0.50, 30, 0
+frame0271.png, hole, 2.00, -60, 0
+depthFrame0271.png, hole, 2.00, -60, 0
+thermalFrame0271.pgm, hole, 2.00, -60, 0
+frame0273.png, hole, 3.00, 0, 0
+depthFrame0273.png, hole, 3.00, 0, 0
+thermalFrame0273.pgm, hole, 3.00, 0, 0
+frame0230.png, hole, 2.00, -30, 0
+depthFrame0230.png, hole, 2.00, -30, 0
+thermalFrame0230.pgm, hole, 2.00, -30, 0
+frame0260.png, hole, 0.50, 30, 0
+depthFrame0260.png, hole, 0.50, 30, 0
+thermalFrame0260.pgm, hole, 0.50, 30, 0
+frame0246.png, hole, 1.00, -60, 0
+depthFrame0246.png, hole, 1.00, -60, 0
+thermalFrame0246.pgm, hole, 1.00, -60, 0
+frame0220.png, hole, 0.50, -60, 0
+depthFrame0220.png, hole, 0.50, -60, 0
+thermalFrame0220.pgm, hole, 0.50, -60, 0
+frame0261.png, hole, 0.50, 60, 0
+depthFrame0261.png, hole, 0.50, 60, 0
+thermalFrame0261.pgm, hole, 0.50, 60, 0
+frame0254.png, hole, 3.00, -60, 0
+depthFrame0254.png, hole, 3.00, -60, 0
+thermalFrame0254.pgm, hole, 3.00, -60, 0
+frame0242.png, hole, 1.00, 0, 0
+depthFrame0242.png, hole, 1.00, 0, 0
+thermalFrame0242.pgm, hole, 1.00, 0, 0
+frame0231.png, hole, 2.00, -60, 0
+depthFrame0231.png, hole, 2.00, -60, 0
+thermalFrame0231.pgm, hole, 2.00, -60, 0
+frame0257.png, hole, 0.50, 0, 0
+depthFrame0257.png, hole, 0.50, 0, 0
+thermalFrame0257.pgm, hole, 0.50, 0, 0
+frame0259.png, hole, 0.50, -30, 0
+depthFrame0259.png, hole, 0.50, -30, 0
+thermalFrame0259.pgm, hole, 0.50, -30, 0
+frame0235.png, hole, 3.00, -30, 0
+depthFrame0235.png, hole, 3.00, -30, 0
+thermalFrame0235.pgm, hole, 3.00, -30, 0
+frame0225.png, hole, 1.00, -30, 0
+depthFrame0225.png, hole, 1.00, -30, 0
+thermalFrame0225.pgm, hole, 1.00, -30, 0
+frame0272.png, hole, 3.00, 0, 0
+depthFrame0272.png, hole, 3.00, 0, 0
+thermalFrame0272.pgm, hole, 3.00, 0, 0
+frame0232.png, hole, 3.00, 0, 0
+depthFrame0232.png, hole, 3.00, 0, 0
+thermalFrame0232.pgm, hole, 3.00, 0, 0
+frame0267.png, hole, 2.00, 0, 0
+depthFrame0267.png, hole, 2.00, 0, 0
+thermalFrame0267.pgm, hole, 2.00, 0, 0
+frame0269.png, hole, 2.00, 60, 0
+depthFrame0269.png, hole, 2.00, 60, 0
+thermalFrame0269.pgm, hole, 2.00, 60, 0
+frame0268.png, hole, 2.00, 30, 0
+depthFrame0268.png, hole, 2.00, 30, 0
+thermalFrame0268.pgm, hole, 2.00, 30, 0
+frame0236.png, hole, 3.00, -60, 0
+depthFrame0236.png, hole, 3.00, -60, 0
+thermalFrame0236.pgm, hole, 3.00, -60, 0
+frame0258.png, hole, 0.50, -30, 0
+depthFrame0258.png, hole, 0.50, -30, 0
+thermalFrame0258.pgm, hole, 0.50, -30, 0
+frame0237.png, hole, 0.50, 0, 0
+depthFrame0237.png, hole, 0.50, 0, 0
+thermalFrame0237.pgm, hole, 0.50, 0, 0
+frame0222.png, hole, 1.00, 30, 0
+depthFrame0222.png, hole, 1.00, 30, 0
+thermalFrame0222.pgm, hole, 1.00, 30, 0
+frame0228.png, hole, 2.00, 30, 0
+depthFrame0228.png, hole, 2.00, 30, 0
+thermalFrame0228.pgm, hole, 2.00, 30, 0
+frame0234.png, hole, 3.00, 60, 0
+depthFrame0234.png, hole, 3.00, 60, 0
+thermalFrame0234.pgm, hole, 3.00, 60, 0
+frame0239.png, hole, 0.50, 60, 0
+depthFrame0239.png, hole, 0.50, 60, 0
+thermalFrame0239.pgm, hole, 0.50, 60, 0
+frame0256.png, hole, 3.00, 60, 0
+depthFrame0256.png, hole, 3.00, 60, 0
+thermalFrame0256.pgm, hole, 3.00, 60, 0
+frame0240.png, hole, 0.50, -30, 0
+depthFrame0240.png, hole, 0.50, -30, 0
+thermalFrame0240.pgm, hole, 0.50, -30, 0
+frame0229.png, hole, 2.00, -60, 0
+depthFrame0229.png, hole, 2.00, -60, 0
+thermalFrame0229.pgm, hole, 2.00, -60, 0
+frame0247.png, hole, 2.00, 0, 0
+depthFrame0247.png, hole, 2.00, 0, 0
+thermalFrame0247.pgm, hole, 2.00, 0, 0
+frame0241.png, hole, 0.50, -30, 0
+depthFrame0241.png, hole, 0.50, -30, 0
+thermalFrame0241.pgm, hole, 0.50, -30, 0
+frame0227.png, hole, 2.00, 0, 0
+depthFrame0227.png, hole, 2.00, 0, 0
+thermalFrame0227.pgm, hole, 2.00, 0, 0
+frame0244.png, hole, 1.00, -60, 0
+depthFrame0244.png, hole, 1.00, -60, 0
+thermalFrame0244.pgm, hole, 1.00, -60, 0
+frame0277.png, hole, 3.00, -60, 0
+depthFrame0277.png, hole, 3.00, -60, 0
+thermalFrame0277.pgm, hole, 3.00, -60, 0
+frame0262.png, hole, 1.00, 0, 0
+depthFrame0262.png, hole, 1.00, 0, 0
+thermalFrame0262.pgm, hole, 1.00, 0, 0
+frame0233.png, hole, 3.00, 30, 0
+depthFrame0233.png, hole, 3.00, 30, 0
+thermalFrame0233.pgm, hole, 3.00, 30, 0
+frame0263.png, hole, 1.00, 30, 0
+depthFrame0263.png, hole, 1.00, 30, 0
+thermalFrame0263.pgm, hole, 1.00, 30, 0
+frame0266.png, hole, 1.00, -30, 0
+depthFrame0266.png, hole, 1.00, -30, 0
+thermalFrame0266.pgm, hole, 1.00, -30, 0
+frame0249.png, hole, 2.00, 60, 0
+depthFrame0249.png, hole, 2.00, 60, 0
+thermalFrame0249.pgm, hole, 2.00, 60, 0
