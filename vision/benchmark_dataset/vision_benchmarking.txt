@@ -11,884 +11,884 @@
 # The dataset contains data for 477 images. 
 # Name Gaps: 0021, 0224. Those gaps will be corrected. 
 # There are no missing values.
-# Image Name, Algorithm, Distance, Horizontal Angle, Vertical Angle
-frame0001.png, QR, 0.5, 0, 0 
-frame0002.png, QR, 0.5, -30, 0 
-frame0003.png, QR, 0.5, -60, 0 
-frame0004.png, QR, 0.5, 30, 0  
-frame0005.png, QR, 0.5, 60, 0
-frame0006.png, QR, 0.5, 0, 30 
-frame0007.png, QR, 0.5, 0, -30
-frame0008.png, QR, 1.0, 0, 0 
-frame0009.png, QR, 1.0, 30, 0
-frame0010.png, QR, 1.0, -30, 0 
-frame0011.png, QR, 1.0, -60, 0 
-frame0012.png, QR, 1.0, 60, 0 
-frame0013.png, QR, 1.0, 0, 30 
-frame0014.png, QR, 1.0, 0, 30 
-frame0015.png, QR, 1.0, 0, -30 
-frame0016.png, QR, 2.0, 0, 0
-frame0017.png, QR, 2.0, 30, 0 
-frame0018.png, QR, 2.0, -30, 0
-frame0019.png, QR, 2.0, 60, 0
-frame0020.png, QR, 2.0, -60, 0  
-frame0022.png, QR, 2.0, 0, 30  
-frame0023.png, QR, 2.0, 0, -30  
-frame0024.png, QR, 3.0, 0, 0 
-frame0025.png, QR, 3.0, 30, 0 
-frame0026.png, QR, 3.0, -30, 0 
-frame0027.png, QR, 3.0, 60, 0 
-frame0028.png, QR, 3.0, -60, 0 
-frame0029.png, QR, 3.0, 0, -30
-frame0030.png, QR, 3.0, 0, 30 
-frame0031.png, QR, 1.0, 30, 30 
-frame0032.png, QR, 1.0, -30, 30 
-frame0033.png, QR, 1.0, 60, 30 
-frame0034.png, QR, 1.0, -60, 30 
-frame0035.png, QR, 1.0, 30, -30 
-frame0036.png, QR, 1.0, -30, -30 
-frame0037.png, QR, 1.0, 60, -30 
-frame0038.png, QR, 1.0, -60, -30 
-frame0039.png, QR, 0.5, 30, 30 
-frame0040.png, QR, 0.5, -30, 30 
-frame0041.png, QR, 0.5, 60, 30 
-frame0042.png, QR, 0.5, -60, 30 
-frame0043.png, QR, 0.5, 30, -30 
-frame0044.png, QR, 0.5, -30, -30 
-frame0045.png, QR, 0.5, 60, -30 
-frame0046.png, QR, 0.5, -60, -30 
-frame0047.png, LandoltC, 0.5, 0, 0
-frame0048.png, LandoltC, 0.5, 30, 0
-frame0049.png, LandoltC, 0.5, -30, 0
-frame0050.png, LandoltC, 0.5, 60, 0
-frame0051.png, LandoltC, 0.5, -60, 0
-frame0052.png, LandoltC, 0.5, 0, 30 
-frame0053.png, LandoltC, 0.5, 0, -30
-frame0054.png, LandoltC, 0.5, 30, 30
-frame0055.png, LandoltC, 0.5, -30, 30
-frame0056.png, LandoltC, 0.5, 60, 30
-frame0057.png, LandoltC, 0.5, -60, 30
-frame0058.png, LandoltC, 0.5, 30, -30
-frame0059.png, LandoltC, 0.5, -30, -30
-frame0060.png, LandoltC, 0.5, 60, -30
-frame0061.png, LandoltC, 0.5, -60, -30
-frame0062.png, LandoltC, 1.0, 0, 0
-frame0063.png, LandoltC, 1.0, 30, 0
-frame0064.png, LandoltC, 1.0, -30, 0
-frame0065.png, LandoltC, 1.0, 60, 0
-frame0066.png, LandoltC, 1.0, -60, 0
-frame0067.png, LandoltC, 1.0, 0, 30
-frame0068.png, LandoltC, 1.0, 0, 30
-frame0069.png, LandoltC, 1.0, 30, 30
-frame0070.png, LandoltC, 1.0, -30, 30
-frame0071.png, LandoltC, 1.0, 60, 30
-frame0072.png, LandoltC, 1.0, -60, 30
-frame0073.png, LandoltC, 1.0, 0, -30
-frame0074.png, LandoltC, 1.0, 30, -30
-frame0075.png, LandoltC, 1.0, -30, -30
-frame0076.png, LandoltC, 1.0, -30, -30
-frame0077.png, LandoltC, 1.0, 60, -30
-frame0078.png, LandoltC, 1.0, -60, -30
-frame0079.png, LandoltC, 2.0, 0, 0
-frame0080.png, LandoltC, 2.0, 30, 0
-frame0081.png, LandoltC, 2.0, -30, 0
-frame0082.png, LandoltC, 2.0, 60, 0
-frame0083.png, LandoltC, 2.0, -60, 0
-frame0084.png, LandoltC, 2.0, 0, 30
-frame0085.png, LandoltC, 2.0, 30, 30
-frame0086.png, LandoltC, 2.0, -30, 30
-frame0087.png, LandoltC, 2.0, 60, 30
-frame0088.png, LandoltC, 2.0, -60, 30
-frame0089.png, LandoltC, 2.0, 0, -30
-frame0090.png, LandoltC, 2.0, 0, -30
-frame0091.png, LandoltC, 2.0, 30, -30
-frame0092.png, LandoltC, 2.0, -30, -30
-frame0093.png, LandoltC, 2.0, 60, -30
-frame0094.png, LandoltC, 2.0, -60, -30
-frame0095.png, LandoltC, 3.0, 0, 0
-frame0096.png, LandoltC, 3.0, 30, 0
-frame0097.png, LandoltC, 3.0, -30, 0
-frame0098.png, LandoltC, 3.0, 60, 0
-frame0099.png, LandoltC, 3.0, -60, 0
-frame0100.png, LandoltC, 3.0, 0, 30
-frame0101.png, LandoltC, 3.0, 0, -30
-frame0102.png, Hazmat, 0.5, 0, 0
-frame0103.png, Hazmat, 0.5, 30, 0
-frame0104.png, Hazmat, 0.5, -30, 0
-frame0105.png, Hazmat, 0.5, 60, 0
-frame0106.png, Hazmat, 0.5, -60, 0
-frame0107.png, Hazmat, 0.5, 0, 30
-frame0108.png, Hazmat, 0.5, 30, 30
-frame0109.png, Hazmat, 0.5, -30, 30
-frame0110.png, Hazmat, 0.5, 60, 30
-frame0111.png, Hazmat, 0.5, -60, 30
-frame0112.png, Hazmat, 0.5, 0, -30
-frame0113.png, Hazmat, 0.5, 30, -30
-frame0114.png, Hazmat, 0.5, -30, -30
-frame0115.png, Hazmat, 0.5, 60, -30
-frame0116.png, Hazmat, 0.5, -60, -30
-frame0117.png, Hazmat, 1.0, 0, 0
-frame0118.png, Hazmat, 1.0, 30, 0
-frame0119.png, Hazmat, 1.0, -30, 0
-frame0120.png, Hazmat, 1.0, 60, 0
-frame0121.png, Hazmat, 1.0, -60, 0
-frame0122.png, Hazmat, 1.0, 0, 30
-frame0123.png, Hazmat, 1.0, 30, 30
-frame0124.png, Hazmat, 1.0, -30, 30
-frame0125.png, Hazmat, 1.0, 60, 30
-frame0126.png, Hazmat, 1.0, -60, 30
-frame0127.png, Hazmat, 1.0, 0, -30 
-frame0128.png, Hazmat, 1.0, 30, -30
-frame0129.png, Hazmat, 1.0, -30, -30
-frame0130.png, Hazmat, 1.0, 60, -30
-frame0131.png, Hazmat, 1.0, -60, -30
-frame0132.png, Hazmat, 2.0, 0, 0
-frame0133.png, Hazmat, 2.0, 30, 0
-frame0134.png, Hazmat, 2.0, 60, 0
-frame0135.png, Hazmat, 2.0, -30, 0
-frame0136.png, Hazmat, 2.0, -60, 0
-frame0137.png, Hazmat, 2.0, -60, 0
-frame0138.png, Hazmat, 2.0, -60, 0
-frame0139.png, Hazmat, 2.0, 0, 30
-frame0140.png, Hazmat, 2.0, -30, 30
-frame0141.png, Hazmat, 2.0, 30, 30
-frame0142.png, Hazmat, 2.0, 0, 0
-frame0143.png, Hazmat, 2.0, 30, 0
-frame0144.png, Hazmat, 2.0, 60, 0
-frame0145.png, Hazmat, 2.0, -30, 0
-frame0146.png, Hazmat, 2.0, -60, 0
-frame0147.png, Hazmat, 2.0, -60, 0
-frame0148.png, Hazmat, 2.0, 0, 30
-frame0149.png, Hazmat, 2.0, 30, 30
-frame0150.png, Hazmat, 2.0, 60, 30
-frame0151.png, Hazmat, 2.0, 60, 30
-frame0152.png, Hazmat, 2.0, -30, 30
-frame0153.png, Hazmat, 2.0, -60, 30
-frame0154.png, Hazmat, 2.0, -60, 30
-frame0155.png, Hazmat, 2.0, 0, -30
-frame0156.png, Hazmat, 2.0, 30, -30
-frame0157.png, Hazmat, 2.0, 60, -30
-frame0158.png, Hazmat, 2.0, -30, -30
-frame0159.png, Hazmat, 2.0, -60, -30
-frame0160.png, Hazmat, 2.0, 0, -30
-frame0161.png, Hazmat, 2.0, 30, -30 
-frame0162.png, Hazmat, 2.0, 60, -30 
-frame0163.png, Hazmat, 2.0, 60, -30 
-frame0164.png, Hazmat, 2.0, -30, -30 
-frame0165.png, Hazmat, 2.0, -60, -30 
-frame0166.png, Hazmat, 2.0, -60, -30 
-frame0167.png, Hazmat, 2.0, 0, 0
-frame0168.png, Hazmat, 2.0, 30, 0
-frame0169.png, Hazmat, 2.0, 60, 0
-frame0170.png, Hazmat, 2.0, 60, 0
-frame0171.png, Hazmat, 2.0, -30, 0
-frame0172.png, Hazmat, 2.0, -60, 0
-frame0173.png, Hazmat, 2.0, -60, 0
-frame0174.png, Hazmat, 2.0, 0, 30
-frame0175.png, Hazmat, 2.0, 30, 30
-frame0176.png, Hazmat, 2.0, 60, 30
-frame0177.png, Hazmat, 2.0, 60, 30
-frame0178.png, Hazmat, 2.0, -30, 30
-frame0179.png, Hazmat, 2.0, -60, 30
-frame0180.png, Hazmat, 2.0, -60, 30
-frame0181.png, Hazmat, 1.0, 0, 0
-frame0182.png, Hazmat, 1.0, 30, 0
-frame0183.png, Hazmat, 1.0, 60, 0
-frame0184.png, Hazmat, 1.0, 60, 0
-frame0185.png, Hazmat, 1.0, -30, 0
-frame0186.png, Hazmat, 1.0, -60, 0
-frame0187.png, Hazmat, 1.0, -60, 0
-frame0188.png, Hazmat, 1.0, 0, 30
-frame0189.png, Hazmat, 1.0, 30, 30
-frame0190.png, Hazmat, 1.0, 60, 30
-frame0191.png, Hazmat, 1.0, 60, 30
-frame0192.png, Hazmat, 1.0, -30, 30
-frame0193.png, Hazmat, 1.0, -60, 30
-frame0194.png, Hazmat, 1.0, -60, 30
-frame0195.png, Hazmat, 0.5, 0, 0
-frame0196.png, Hazmat, 0.5, 30, 0
-frame0197.png, Hazmat, 0.5, 60, 0
-frame0198.png, Hazmat, 0.5, 60, 0
-frame0199.png, Hazmat, 0.5, -30, 0
-frame0200.png, Hazmat, 0.5, -60, 0
-frame0201.png, Hazmat, 0.5, -60, 0
-frame0202.png, Hazmat, 0.5, 0, -30
-frame0203.png, Hazmat, 0.5, -30, -30
-frame0204.png, Hazmat, 0.5, -60, -30
-frame0205.png, Hazmat, 0.5, -60, -30
-frame0206.png, Hazmat, 0.5, 30, -30
-frame0207.png, Hazmat, 0.5, 60, -30
-frame0208.png, Hazmat, 0.5, 60, -30
-frame0209.png, Hazmat, 0.5, 0, 30
-frame0210.png, Hazmat, 0.5, 30, 30
-frame0211.png, Hazmat, 0.5, 60, 30
-frame0212.png, Hazmat, 0.5, 60, 30
-frame0213.png, Hazmat, 0.5, -30, 30
-frame0214.png, Hazmat, 0.5, -60, 30
-frame0215.png, Hazmat, 0.5, -60, 30
-frame0229.png, Hazmat, 2.00, 60, 0
-frame0234.png, Hazmat, 3.00, 30, 0
-frame0237.png, Hole, 0.50, 0, 0
-frame0237.png, Victim, 0.50, 0, 0
-frame0238.png, Hole, 0.50, -30, 0
-frame0238.png, Victim, 0.50, -30, 0
-frame0239.png, Hole, 0.50, -60, 0
-frame0240.png, Hole, 0.50, 30, 0
-frame0240.png, Victim, 0.50, 30, 0
-frame0241.png, Hole, 0.50, 30, 0
-frame0242.png, Hole, 1.00, 0, 0
-frame0242.png, Victim, 1.00, 0, 0
-frame0243.png, Hole, 1.00, -30, 0
-frame0243.png, Victim, 1.00, -30, 0
-frame0244.png, Hole, 1.00, 60, 0
-frame0244.png, Hazmat, 1.00, -60, 0
-frame0245.png, Hole, 1.00, 30, 0
-frame0245.png, Victim, 1.00, 30, 0
-frame0246.png, Hole, 1.00, 60, 0
-frame0247.png, Hole, 2.00, 0, 0
-frame0247.png, Victim, 2.00, 0, 0
-frame0248.png, Hole, 2.00, -30, 0
-frame0248.png, Victim, 2.00, -30, 0
-frame0249.png, Hole, 2.00, -60, 0
-frame0249.png, Hazmat, 2.00, 30, 0
-frame0250.png, Hole, 2.00, 30, 0
-frame0250.png, Victim, 2.00, 30, 0
-frame0251.png, Hole, 2.00, 60, 0
-frame0252.png, Hole, 3.00, 0, 0
-frame0252.png, Victim, 3.00, 0, 0
-frame0253.png, Hole, 3.00, 30, 0
-frame0253.png, Victim, 3.00, 30, 0
-frame0254.png, Hole, 3.00, -60, 0
-frame0255.png, Hole, 3.00, -30, 0
-frame0255.png, Victim, 3.00, -30, 0
-frame0256.png, Hole, 3.00, -60, 0
-frame0256.png, Hazmat, 3.00, 30, 0
-frame0257.png, Hole, 0.50, 0, 0
-frame0258.png, Hole, 0.50, 30, 0
-frame0259.png, Hole, 0.50, 60, 0
-frame0260.png, Hole, 0.50, -30, 0
-frame0261.png, Hole, 0.50, -60, 0
-frame0262.png, Hole, 1.00, 0, 0
-frame0263.png, Hole, 1.00, -30, 0
-frame0263.png, Hazmat, 1.00, 60, 0
-frame0264.png, Hole, 1.00, -60, 0
-frame0264.png, Hazmat, 1.00, 30, 0
-frame0265.png, Hole, 1.00, 30, 0
-frame0266.png, Hole, 1.00, 60, 0
-frame0267.png, Hole, 2.00, 0, 0
-frame0268.png, Hole, 2.00, -30, 0
-frame0269.png, Hole, 2.00, -60, 0
-frame0269.png, Hazmat, 2.00, 30, 0
-frame0270.png, Hole, 2.00, 30, 0
-frame0271.png, Hole, 2.00, 60, 0
-frame0272.png, Hole, 3.00, 0, 0
-frame0273.png, Hole, 3.00, 0, 0
-frame0274.png, Hole, 3.00, 30, 0
-frame0275.png, Hole, 3.00, 60, 0
-frame0276.png, Hole, 3.00, -30, 0
-frame0276.png, Hazmat, 3.00, 60, 0
-frame0277.png, Hole, 3.00, -60, 0
-frame0277.png, Hazmat, 3.00, 30, 0
-frame0278.png, QR, 0.5, 0, 0 
-frame0279.png, QR, 0.5, -30, 0 
-frame0280.png, QR, 0.5, -60, 0
-frame0281.png, QR, 0.5, 30, 0 
-frame0282.png, QR, 0.5, 60, 0
-frame0283.png, QR, 1.0, 0, 0 
-frame0284.png, QR, 1.0, -30, 0 
-frame0285.png, QR, 1.0, -60, 0 
-frame0286.png, QR, 1.0, 30, 0 
-frame0287.png, QR, 1.0, 60, 0
-frame0288.png, QR, 2.0, 0, 0 
-frame0289.png, QR, 2.0, -30, 0 
-frame0290.png, QR, 2.0, -60, 0 
-frame0291.png, QR, 2.0, 30, 0 
-frame0292.png, QR, 2.0, 60, 0 
-frame0293.png, QR, 3.0, 0, 0 
-frame0294.png, QR, 3.0, -30, 0 
-frame0295.png, QR, 3.0, -60, 0 
-frame0296.png, QR, 3.0, 30, 0 
-frame0297.png, QR, 3.0, 60, 0 
-frame0298.png, LandoltC, 3.0, 0, 0
-frame0298.png, LandoltC, 3.0, 0, 0
-frame0298.png, Hazmat, 3.0, 0, 0
-frame0298.png, Hazmat, 3.0, 0, 0
-frame0298.png, Hazmat, 3.0, 0, 0
-frame0299.png, LandoltC, 3.0, -30, 0
-frame0299.png, LandoltC, 3.0, -30, 0
-frame0299.png, Hazmat, 3.0, -30, 0
-frame0299.png, Hazmat, 3.0, -30, 0
-frame0299.png, Hazmat, 3.0, -30, 0
-frame0300.png, LandoltC, 3.0, 30, 0
-frame0300.png, LandoltC, 3.0, 30, 0
-frame0300.png, Hazmat, 3.0, 30, 0
-frame0300.png, Hazmat, 3.0, 30, 0
-frame0300.png, Hazmat, 3.0, 30, 0
-frame0301.png, LandoltC, 3.0, 60, 0
-frame0301.png, LandoltC, 3.0, 60, 0
-frame0301.png, Hazmat, 3.0, 60, 0
-frame0301.png, Hazmat, 3.0, 60, 0
-frame0301.png, Hazmat, 3.0, 60, 0
-frame0302.png, LandoltC, 2.0, 0, 0
-frame0302.png, LandoltC, 2.0, 0, 0
-frame0302.png, Hazmat, 2.0, 0, 0
-frame0302.png, Hazmat, 2.0, 0, 0
-frame0302.png, Hazmat, 2.0, 0, 0
-frame0303.png, LandoltC, 2.0, 30, 0
-frame0303.png, LandoltC, 2.0, 30, 0
-frame0303.png, Hazmat, 2.0, 30, 0
-frame0303.png, Hazmat, 2.0, 30, 0
-frame0303.png, Hazmat, 2.0, 30, 0
-frame0304.png, LandoltC, 2.0, 60, 0
-frame0304.png, LandoltC, 2.0, 60, 0
-frame0304.png, Hazmat, 2.0, 60, 0
-frame0304.png, Hazmat, 2.0, 60, 0
-frame0304.png, Hazmat, 2.0, 60, 0
-frame0305.png, LandoltC, 2.0, 60, 0
-frame0305.png, LandoltC, 2.0, 60, 0
-frame0305.png, Hazmat, 2.0, 60, 0
-frame0305.png, Hazmat, 2.0, 60, 0
-frame0305.png, Hazmat, 2.0, 60, 0
-frame0306.png, LandoltC, 2.0, -30, 0
-frame0306.png, LandoltC, 2.0, -30, 0
-frame0306.png, Hazmat, 2.0, -30, 0
-frame0306.png, Hazmat, 2.0, -30, 0
-frame0306.png, Hazmat, 2.0, -30, 0
-frame0307.png, LandoltC, 2.0, -60, 0
-frame0307.png, LandoltC, 2.0, -60, 0
-frame0307.png, Hazmat, 2.0, -60, 0
-frame0307.png, Hazmat, 2.0, -60, 0
-frame0307.png, Hazmat, 2.0, -60, 0
-frame0308.png, LandoltC, 1.0, 0, 0
-frame0308.png, LandoltC, 1.0, 0, 0
-frame0308.png, Hazmat, 1.0, 0, 0
-frame0308.png, Hazmat, 1.0, 0, 0
-frame0308.png, Hazmat, 1.0, 0, 0
-frame0309.png, LandoltC, 1.0, -30, 0
-frame0309.png, LandoltC, 1.0, -30, 0
-frame0309.png, Hazmat, 1.0, -30, 0
-frame0309.png, Hazmat, 1.0, -30, 0
-frame0309.png, Hazmat, 1.0, -30, 0
-frame0310.png, LandoltC, 1.0, -60, 0
-frame0310.png, LandoltC, 1.0, -60, 0
-frame0310.png, Hazmat, 1.0, -60, 0
-frame0310.png, Hazmat, 1.0, -60, 0
-frame0310.png, Hazmat, 1.0, -60, 0
-frame0311.png, LandoltC, 1.0, 30, 0
-frame0311.png, LandoltC, 1.0, 30, 0
-frame0311.png, Hazmat, 1.0, 30, 0
-frame0311.png, Hazmat, 1.0, 30, 0
-frame0311.png, Hazmat, 1.0, 30, 0
-frame0312.png, LandoltC, 1.0, 60, 0
-frame0312.png, LandoltC, 1.0, 60, 0
-frame0312.png, Hazmat, 1.0, 60, 0
-frame0312.png, Hazmat, 1.0, 60, 0
-frame0312.png, Hazmat, 1.0, 60, 0
-frame0313.png, LandoltC, 0.5, 0, 0
-frame0313.png, LandoltC, 0.5, 0, 0
-frame0313.png, Hazmat, 0.5, 0, 0
-frame0313.png, Hazmat, 0.5, 0, 0
-frame0313.png, Hazmat, 0.5, 0, 0
-frame0314.png, LandoltC, 0.5, 30, 0
-frame0314.png, LandoltC, 0.5, 30, 0
-frame0314.png, Hazmat, 0.5, 30, 0
-frame0314.png, Hazmat, 0.5, 30, 0
-frame0314.png, Hazmat, 0.5, 30, 0
-frame0315.png, LandoltC, 0.5, 60, 0
-frame0315.png, LandoltC, 0.5, 60, 0
-frame0315.png, Hazmat, 0.5, 60, 0
-frame0315.png, Hazmat, 0.5, 60, 0
-frame0316.png, LandoltC, 0.5, -30, 0
-frame0316.png, LandoltC, 0.5, -30, 0
-frame0316.png, Hazmat, 0.5, -30, 0
-frame0316.png, Hazmat, 0.5, -30, 0
-frame0316.png, Hazmat, 0.5, -30, 0
-frame0317.png, LandoltC, 0.5, -60, 0
-frame0317.png, LandoltC, 0.5, -60, 0
-frame0317.png, Hazmat, 0.5, -60, 0
-frame0317.png, Hazmat, 0.5, -60, 0
-frame0317.png, Hazmat, 0.5, -60, 0
-frame0318.png, Hazmat, 0.5, 0, 0
-frame0318.png, Hazmat, 0.5, 0, 0
-frame0319.png, Landoltc, 0.5, 0, 0
-frame0319.png, Hazmat, 0.5, 0, 0
-frame0320.png, QR, 0.5, 0, 0
-frame0320.png, Landoltc, 0.5, 0, 0
-frame0320.png, Hazmat, 0.5, 0, 0
-frame0321.png, Hazmat, 0.5, 0, 0
-frame0321.png, Hazmat, 0.5, 0, 0
-frame0322.png, Landoltc, 0.5, 0, 0
-frame0322.png, Hazmat, 0.5, 0, 0
-frame0322.png, Hazmat, 0.5, 0, 0
-frame0323.png, Landoltc, 0.5, -30, 0
-frame0323.png, Hazmat, 0.5, -30, 0
-frame0323.png, Hazmat, 0.5, -30, 0
-frame0324.png, QR, 0.5, -30, 0
-frame0324.png, Hazmat, 0.5, -30, 0
-frame0324.png, Hazmat, 0.5, -30, 0
-frame0325.png, Landoltc, 0.5, -60, 0
-frame0325.png, Hazmat, 0.5, -60, 0
-frame0325.png, Hazmat, 0.5, -60, 0
-frame0326.png, QR, 0.5, -60, 0
-frame0326.png, Hazmat, 0.5, -60, 0
-frame0326.png, Hazmat, 0.5, -60, 0
-frame0327.png, Landoltc, 0.5, 30, 0
-frame0327.png, Hazmat, 0.5, 30, 0
-frame0327.png, Hazmat, 0.5, 30, 0
-frame0328.png, Landoltc, 0.5, 30, 0
-frame0328.png, Hazmat, 0.5, 30, 0
-frame0328.png, Hazmat, 0.5, 30, 0
-frame0329.png, QR, 0.5, 30, 0
-frame0329.png, Hazmat, 0.5, 30, 0
-frame0329.png, Hazmat, 0.5, 30, 0
-frame0330.png, Landoltc, 0.5, 60, 0
-frame0330.png, Hazmat, 0.5, 60, 0
-frame0330.png, Hazmat, 0.5, 60, 0
-frame0331.png, Landoltc, 0.5, 60, 0
-frame0331.png, Hazmat, 0.5, 60, 0
-frame0331.png, Hazmat, 0.5, 60, 0
-frame0332.png, QR, 0.5, 60, 0
-frame0332.png, Hazmat, 0.5, 60, 0
-frame0333.png, QR, 1.0, 0, 0
-frame0333.png, Landoltc, 1.0, 0, 0
-frame0333.png, Hazmat, 1.0, 0, 0
-frame0333.png, Hazmat, 1.0, 0, 0
-frame0333.png, Hazmat, 1.0, 0, 0
-frame0334.png, QR, 1.0, -30, 0
-frame0334.png, Landoltc, 1.0, -30, 0
-frame0334.png, Hazmat, 1.0, -30, 0
-frame0334.png, Hazmat, 1.0, -30, 0
-frame0334.png, Hazmat, 1.0, -30, 0
-frame0335.png, QR, 1.0, -60, 0
-frame0335.png, Landoltc, 1.0, -60, 0
-frame0335.png, Hazmat, 1.0, -60, 0
-frame0335.png, Hazmat, 1.0, -60, 0
-frame0335.png, Hazmat, 1.0, -60, 0
-frame0336.png, QR, 1.0, 30, 0
-frame0336.png, Landoltc, 1.0, 30, 0
-frame0336.png, Hazmat, 1.0, 30, 0
-frame0336.png, Hazmat, 1.0, 30, 0
-frame0336.png, Hazmat, 1.0, 30, 0
-frame0337.png, QR, 1.0, 60, 0
-frame0337.png, Landoltc, 1.0, 60, 0
-frame0337.png, Hazmat, 1.0, 60, 0
-frame0337.png, Hazmat, 1.0, 60, 0
-frame0337.png, Hazmat, 1.0, 60, 0
-frame0338.png, QR, 2.0, 0, 0
-frame0338.png, Landoltc, 2.0, 0, 0
-frame0338.png, Hazmat, 2.0, 0, 0
-frame0338.png, Hazmat, 2.0, 0, 0
-frame0338.png, Hazmat, 2.0, 0, 0
-frame0339.png, QR, 2.0, -30, 0
-frame0339.png, Landoltc, 2.0, -30, 0
-frame0339.png, Hazmat, 2.0, -30, 0
-frame0339.png, Hazmat, 2.0, -30, 0
-frame0339.png, Hazmat, 2.0, -30, 0
-frame0340.png, QR, 2.0, -60, 0
-frame0340.png, Landoltc, 2.0, -60, 0
-frame0340.png, Hazmat, 2.0, -60, 0
-frame0340.png, Hazmat, 2.0, -60, 0
-frame0340.png, Hazmat, 2.0, -60, 0
-frame0341.png, QR, 2.0, 30, 0
-frame0341.png, Landoltc, 2.0, 30, 0
-frame0341.png, Hazmat, 2.0, 30, 0
-frame0341.png, Hazmat, 2.0, 30, 0
-frame0341.png, Hazmat, 2.0, 30, 0
-frame0342.png, QR, 2.0, 60, 0
-frame0342.png, Landoltc, 2.0, 60, 0
-frame0342.png, Hazmat, 2.0, 60, 0
-frame0342.png, Hazmat, 2.0, 60, 0
-frame0342.png, Hazmat, 2.0, 60, 0
-frame0343.png, QR, 3, 0, 0
-frame0343.png, Landoltc, 3, 0, 0
-frame0343.png, Hazmat, 3, 0, 0
-frame0343.png, Hazmat, 3, 0, 0
-frame0343.png, Hazmat, 3, 0, 0
-frame0344.png, QR, 3, -30, 0
-frame0344.png, Landoltc, 3, -30, 0
-frame0344.png, Hazmat, 3, -30, 0
-frame0344.png, Hazmat, 3, -30, 0
-frame0344.png, Hazmat, 3, -30, 0
-frame0345.png, QR, 3, -60, 0
-frame0345.png, Landoltc, 3, -60, 0
-frame0345.png, Hazmat, 3, -60, 0
-frame0345.png, Hazmat, 3, -60, 0
-frame0345.png, Hazmat, 3, -60, 0
-frame0346.png, QR, 3, 30, 0
-frame0346.png, Landoltc, 3, 30, 0
-frame0346.png, Hazmat, 3, 30, 0
-frame0346.png, Hazmat, 3, 30, 0
-frame0346.png, Hazmat, 3, 30, 0
-frame0347.png, QR, 3, 60, 0
-frame0347.png, Landoltc, 3, 60, 0
-frame0347.png, Hazmat, 3, 60, 0
-frame0347.png, Hazmat, 3, 60, 0
-frame0347.png, Hazmat, 3, 60, 0
-frame0348.png, QR, 0.5, 0, 0
-frame0348.png, Hazmat, 0.5, 0, 0
-frame0348.png, Hazmat, 0.5, 0, 0
-frame0349.png, QR, 0.5, -30, 0
-frame0349.png, Hazmat, 0.5, -30, 0
-frame0349.png, Hazmat, 0.5, -30, 0
-frame0350.png, QR, 0.5, -60, 0
-frame0350.png, Hazmat, 0.5, -60, 0
-frame0350.png, Hazmat, 0.5, -60, 0
-frame0351.png, Hazmat, 0.5, 30, 0
-frame0351.png, Hazmat, 0.5, 30, 0
-frame0352.png, Hazmat, 0.5, 60, 0
-frame0352.png, Hazmat, 0.5, 60, 0
-frame0353.png, QR, 1.0, 0, 0
-frame0353.png, Hazmat, 1.0, 0, 0
-frame0353.png, Hazmat, 1.0, 0, 0
-frame0353.png, Hazmat, 1.0, 0, 0
-frame0354.png, QR, 1.0, -30, 0
-frame0354.png, Hazmat, 1.0, -30, 0
-frame0354.png, Hazmat, 1.0, -30, 0
-frame0354.png, Hazmat, 1.0, -30, 0
-frame0355.png, QR, 1.0, -60, 0
-frame0355.png, Hazmat, 1.0, -60, 0
-frame0355.png, Hazmat, 1.0, -60, 0
-frame0355.png, Hazmat, 1.0, -60, 0
-frame0356.png, QR, 1.0, 30, 0
-frame0356.png, Hazmat, 1.0, 30, 0
-frame0356.png, Hazmat, 1.0, 30, 0
-frame0356.png, Hazmat, 1.0, 30, 0
-frame0357.png, QR, 1.0, 60, 0
-frame0357.png, Hazmat, 1.0, 60, 0
-frame0357.png, Hazmat, 1.0, 60, 0
-frame0357.png, Hazmat, 1.0, 60, 0
-frame0358.png, QR, 2.0, 0, 0
-frame0358.png, Hazmat, 2.0, 0, 0
-frame0358.png, Hazmat, 2.0, 0, 0
-frame0358.png, Hazmat, 2.0, 0, 0
-frame0359.png, QR, 2.0, -30, 0
-frame0359.png, Hazmat, 2.0, -30, 0
-frame0359.png, Hazmat, 2.0, -30, 0
-frame0359.png, Hazmat, 2.0, -30, 0
-frame0360.png, QR, 2.0, -60, 0
-frame0360.png, Hazmat, 2.0, -60, 0
-frame0360.png, Hazmat, 2.0, -60, 0
-frame0360.png, Hazmat, 2.0, -60, 0
-frame0361.png, QR, 2.0, 30, 0
-frame0361.png, Hazmat, 2.0, 30, 0
-frame0361.png, Hazmat, 2.0, 30, 0
-frame0361.png, Hazmat, 2.0, 30, 0
-frame0362.png, QR, 2.0, 60, 0
-frame0362.png, Hazmat, 2.0, 60, 0
-frame0362.png, Hazmat, 2.0, 60, 0
-frame0362.png, Hazmat, 2.0, 60, 0
-frame0363.png, QR, 3.0, 0, 0
-frame0363.png, Hazmat, 3.0, 0, 0
-frame0363.png, Hazmat, 3.0, 0, 0
-frame0363.png, Hazmat, 3.0, 0, 0
-frame0364.png, QR, 3.0, -30, 0
-frame0364.png, Hazmat, 3.0, -30, 0
-frame0364.png, Hazmat, 3.0, -30, 0
-frame0364.png, Hazmat, 3.0, -30, 0
-frame0365.png, QR, 3.0, -60, 0
-frame0365.png, Hazmat, 3.0, -60, 0
-frame0365.png, Hazmat, 3.0, -60, 0
-frame0365.png, Hazmat, 3.0, -60, 0
-frame0366.png, QR, 3.0, 30, 0
-frame0366.png, Hazmat, 3.0, 30, 0
-frame0366.png, Hazmat, 3.0, 30, 0
-frame0366.png, Hazmat, 3.0, 30, 0
-frame0367.png, QR, 3.0, 60, 0
-frame0367.png, Hazmat, 3.0, 60, 0
-frame0367.png, Hazmat, 3.0, 60, 0
-frame0367.png, Hazmat, 3.0, 60, 0
-frame0368.png, QR, 3.0, 0, 0
-frame0368.png, Hazmat, 3.0, 0, 0
-frame0368.png, Hazmat, 3.0, 0, 0
-frame0368.png, Hazmat, 3.0, 0, 0
-frame0368.png, Hole, 3.0, 0, 0
-frame0368.png, Victim, 3.0, 0, 0
-frame0369.png, QR, 3.0, -30, 0
-frame0369.png, Hazmat, 3.0, -30, 0
-frame0369.png, Hazmat, 3.0, -30, 0
-frame0369.png, Hazmat, 3.0, -30, 0
-frame0369.png, Hole, 3.0, -30, 0
-frame0369.png, Victim, 3.0, -30, 0
-frame0370.png, QR, 3.0, -60, 0
-frame0370.png, Hazmat, 3.0, -60, 0
-frame0370.png, Hazmat, 3.0, -60, 0
-frame0370.png, Hazmat, 3.0, -60, 0
-frame0370.png, Hole, 3.0, -60, 0
-frame0370.png, Victim, 3.0, -60, 0
-frame0371.png, QR, 3.0, 30, 0
-frame0371.png, Hazmat, 3.0, 30, 0
-frame0371.png, Hazmat, 3.0, 30, 0
-frame0371.png, Hazmat, 3.0, 30, 0
-frame0371.png, Hole, 3.0, 30, 0
-frame0371.png, Victim, 3.0, 30, 0
-frame0372.png, QR, 3.0, 60, 0
-frame0372.png, Hazmat, 3.0, 60, 0
-frame0372.png, Hazmat, 3.0, 60, 0
-frame0372.png, Hazmat, 3.0, 60, 0
-frame0372.png, Hole, 3.0, 60, 0
-frame0372.png, Victim, 3.0, 60, 0
-frame0373.png, QR, 2.0, 0, 0
-frame0373.png, Hazmat, 2.0, 0, 0
-frame0373.png, Hazmat, 2.0, 0, 0
-frame0373.png, Hazmat, 2.0, 0, 0
-frame0373.png, Hole, 2.0, 0, 0
-frame0373.png, Victim, 2.0, 0, 0
-frame0374.png, QR, 2.0, -30, 0
-frame0374.png, Hazmat, 2.0, -30, 0
-frame0374.png, Hazmat, 2.0, -30, 0
-frame0374.png, Hazmat, 2.0, -30, 0
-frame0374.png, Hole, 2.0, -30, 0
-frame0374.png, Victim, 2.0, -30, 0
-frame0375.png, QR, 2.0, -60, 0
-frame0375.png, Hazmat, 2.0, -60, 0
-frame0375.png, Hazmat, 2.0, -60, 0
-frame0375.png, Hazmat, 2.0, -60, 0
-frame0375.png, Hole, 2.0, -60, 0
-frame0375.png, Victim, 2.0, -60, 0
-frame0376.png, QR, 2.0, 30, 0
-frame0376.png, Hazmat, 2.0, 30, 0
-frame0376.png, Hazmat, 2.0, 30, 0
-frame0376.png, Hazmat, 2.0, 30, 0
-frame0376.png, Hole, 2.0, 30, 0
-frame0376.png, Victim, 2.0, 30, 0
-frame0377.png, QR, 2.0, 60, 0
-frame0377.png, Hazmat, 2.0, 60, 0
-frame0377.png, Hazmat, 2.0, 60, 0
-frame0377.png, Hazmat, 2.0, 60, 0
-frame0377.png, Hole, 2.0, 60, 0
-frame0377.png, Victim, 2.0, 60, 0
-frame0378.png, QR, 1.0, 0, 0
-frame0378.png, Hazmat, 1.0, 0, 0
-frame0378.png, Hazmat, 1.0, 0, 0
-frame0378.png, Hazmat, 1.0, 0, 0
-frame0378.png, Hole, 1.0, 0, 0
-frame0378.png, Victim, 1.0, 0, 0
-frame0379.png, QR, 1.0, -30, 0
-frame0379.png, Hazmat, 1.0, -30, 0
-frame0379.png, Hazmat, 1.0, -30, 0
-frame0379.png, Hazmat, 1.0, -30, 0
-frame0379.png, Hole, 1.0, -30, 0
-frame0379.png, Victim, 1.0, -30, 0
-frame0380.png, QR, 1.0, -60, 0
-frame0380.png, Hazmat, 1.0, -60, 0
-frame0380.png, Hazmat, 1.0, -60, 0
-frame0380.png, Hazmat, 1.0, -60, 0
-frame0380.png, Hole, 1.0, -60, 0
-frame0380.png, Victim, 1.0, -60, 0
-frame0381.png, QR, 1.0, 30, 0
-frame0381.png, Hazmat, 1.0, 30, 0
-frame0381.png, Hazmat, 1.0, 30, 0
-frame0381.png, Hazmat, 1.0, 30, 0
-frame0381.png, Hole, 1.0, 30, 0
-frame0381.png, Victim, 1.0, 30, 0
-frame0382.png, QR, 1.0, 60, 0
-frame0382.png, Hazmat, 1.0, 60, 0
-frame0382.png, Hazmat, 1.0, 60, 0
-frame0382.png, Hazmat, 1.0, 60, 0
-frame0382.png, Hole, 1.0, 60, 0
-frame0382.png, Victim, 1.0, 60, 0
-frame0383.png, QR, 0.5, 0, 0
-frame0383.png, Hazmat, 0.5, 0, 0
-frame0383.png, Hazmat, 0.5, 0, 0
-frame0383.png, Hole, 0.5, 0, 0
-frame0383.png, Victim, 0.5, 0, 0
-frame0384.png, QR, 0.5, -30, 0
-frame0384.png, Hazmat, 0.5, -30, 0
-frame0384.png, Hazmat, 0.5, -30, 0
-frame0384.png, Hole, 0.5, -30, 0
-frame0384.png, Victim, 0.5, -30, 0
-frame0385.png, QR, 0.5, -60, 0
-frame0385.png, Hazmat, 0.5, -60, 0
-frame0385.png, Hazmat, 0.5, -60, 0
-frame0385.png, Hole, 0.5, -60, 0
-frame0385.png, Victim, 0.5, -60, 0
-frame0386.png, Hazmat, 0.5, 30, 0
-frame0386.png, Hazmat, 0.5, 30, 0
-frame0386.png, Hole, 0.5, 30, 0
-frame0386.png, Victim, 0.5, 30, 0
-frame0387.png, Hazmat, 0.5, 60, 0
-frame0387.png, Hazmat, 0.5, 60, 0
-frame0387.png, Hole, 0.5, 60, 0
-frame0387.png, Victim, 0.5, 60, 0
-frame0388.png, Hazmat, 0.5, 60, 0
-frame0388.png, Hazmat, 0.5, 60, 0
-depthFrame0216.png, Hole, 0.50, 0, 0
-depthFrame0217.png, Hole, 0.50, 30, 0
-depthFrame0218.png, Hole, 0.50, -60, 0
-depthFrame0219.png, Hole, 0.50, -30, 0
-depthFrame0220.png, Hole, 0.50, -60, 0
-depthFrame0221.png, Hole, 1.00, 0, 0
-depthFrame0222.png, Hole, 1.00, 30, 0
-depthFrame0223.png, Hole, 1.00, 60, 0
-depthFrame0225.png, Hole, 1.00, -30, 0
-depthFrame0226.png, Hole, 1.00, -60, 0
-depthFrame0227.png, Hole, 2.00, 0, 0
-depthFrame0228.png, Hole, 2.00, 30, 0
-depthFrame0229.png, Hole, 2.00, -60, 0
-depthFrame0230.png, Hole, 2.00, -30, 0
-depthFrame0231.png, Hole, 2.00, -60, 0
-depthFrame0232.png, Hole, 3.00, 0, 0
-depthFrame0233.png, Hole, 3.00, 30, 0
-depthFrame0234.png, Hole, 3.00, 60, 0
-depthFrame0235.png, Hole, 3.00, -30, 0
-depthFrame0236.png, Hole, 3.00, -60, 0
-depthFrame0237.png, Hole, 0.50, 0, 0
-depthFrame0238.png, Hole, 0.50, 30, 0
-depthFrame0239.png, Hole, 0.50, 60, 0
-depthFrame0240.png, Hole, 0.50, -30, 0
-depthFrame0241.png, Hole, 0.50, -30, 0
-depthFrame0242.png, Hole, 1.00, 0, 0
-depthFrame0243.png, Hole, 1.00, 30, 0
-depthFrame0244.png, Hole, 1.00, -60, 0
-depthFrame0245.png, Hole, 1.00, -30, 0
-depthFrame0246.png, Hole, 1.00, -60, 0
-depthFrame0247.png, Hole, 2.00, 0, 0
-depthFrame0248.png, Hole, 2.00, 30, 0
-depthFrame0249.png, Hole, 2.00, 60, 0
-depthFrame0250.png, Hole, 2.00, -30, 0
-depthFrame0251.png, Hole, 2.00, -60, 0
-depthFrame0252.png, Hole, 3.00, 0, 0
-depthFrame0253.png, Hole, 3.00, -30, 0
-depthFrame0254.png, Hole, 3.00, -60, 0
-depthFrame0255.png, Hole, 3.00, 30, 0
-depthFrame0256.png, Hole, 3.00, 60, 0
-depthFrame0257.png, Hole, 0.50, 0, 0
-depthFrame0258.png, Hole, 0.50, -30, 0
-depthFrame0259.png, Hole, 0.50, -30, 0
-depthFrame0260.png, Hole, 0.50, 30, 0
-depthFrame0261.png, Hole, 0.50, 60, 0
-depthFrame0262.png, Hole, 1.00, 0, 0
-depthFrame0263.png, Hole, 1.00, 30, 0
-depthFrame0264.png, Hole, 1.00, 60, 0
-depthFrame0265.png, Hole, 1.00, -30, 0
-depthFrame0266.png, Hole, 1.00, -30, 0
-depthFrame0267.png, Hole, 2.00, 0, 0
-depthFrame0268.png, Hole, 2.00, 30, 0
-depthFrame0269.png, Hole, 2.00, 60, 0
-depthFrame0270.png, Hole, 2.00, -30, 0
-depthFrame0271.png, Hole, 2.00, -60, 0
-depthFrame0272.png, Hole, 3.00, 0, 0
-depthFrame0273.png, Hole, 3.00, 0, 0
-depthFrame0274.png, Hole, 3.00, -30, 0
-depthFrame0275.png, Hole, 3.00, -60, 0
-depthFrame0276.png, Hole, 3.00, 30, 0
-depthFrame0277.png, Hole, 3.00, -60, 0
-depthFrame0292.png, Hole, 2.0, -60, 0
-depthFrame0292.png, Hole, 2.0, -60, 0
-depthFrame0293.png, Hole, 3.0, -30, 0
-depthFrame0293.png, Hole, 3.0, -30, 0
-depthFrame0297.png, Hole, 3.0, -60, 0
-depthFrame0297.png, Hole, 3.0, -60, 0
-depthFrame0300.png, Hole, 3.0, -60, 0
-depthFrame0300.png, Hole, 3.0, -60, 0
-depthFrame0301.png, Hole, 3.0, -30, 0
-depthFrame0301.png, Hole, 3.0, -30, 0
-depthFrame0303.png, Hole, 2.0, -60, 0
-depthFrame0303.png, Hole, 2.0, -60, 0
-depthFrame0304.png, Hole, 2.0, -30, 0
-depthFrame0304.png, Hole, 2.0, -30, 0
-depthFrame0305.png, Hole, 2.0, -30, 0
-depthFrame0305.png, Hole, 2.0, -30, 0
-depthFrame0312.png, Hole, 1.0, -30, 0
-depthFrame0312.png, Hole, 1.0, -30, 0
-depthFrame0368.png, Hole, 3.0, 0, 0
-depthFrame0368.png, Victim, 3.0, 0, 0
-depthFrame0369.png, Hole, 3.0, -30, 0
-depthFrame0369.png, Victim, 3.0, -30, 0
-depthFrame0370.png, Hole, 3.0, -60, 0
-depthFrame0370.png, Victim, 3.0, -60, 0
-depthFrame0371.png, Hole, 3.0, 30, 0
-depthFrame0371.png, Victim, 3.0, 30, 0
-depthFrame0372.png, Hole, 3.0, 60, 0
-depthFrame0372.png, Victim, 3.0, 60, 0
-depthFrame0373.png, Hole, 2.0, 0, 0
-depthFrame0373.png, Victim, 2.0, 0, 0
-depthFrame0374.png, Hole, 2.0, -30, 0
-depthFrame0374.png, Victim, 2.0, -30, 0
-depthFrame0375.png, Hole, 2.0, -60, 0
-depthFrame0375.png, Victim, 2.0, -60, 0
-depthFrame0376.png, Hole, 2.0, 30, 0
-depthFrame0376.png, Victim, 2.0, 30, 0
-depthFrame0377.png, Hole, 2.0, 60, 0
-depthFrame0377.png, Victim, 2.0, 60, 0
-depthFrame0378.png, Hole, 1.0, 0, 0
-depthFrame0378.png, Victim, 1.0, 0, 0
-depthFrame0379.png, Hole, 1.0, -30, 0
-depthFrame0379.png, Victim, 1.0, -30, 0
-depthFrame0380.png, Hole, 1.0, -60, 0
-depthFrame0380.png, Victim, 1.0, -60, 0
-depthFrame0381.png, Hole, 1.0, 30, 0
-depthFrame0381.png, Victim, 1.0, 30, 0
-depthFrame0382.png, Hole, 1.0, 60, 0
-depthFrame0382.png, Victim, 1.0, 60, 0
-depthFrame0383.png, Hole, 0.5, 0, 0
-depthFrame0383.png, Victim, 0.5, 0, 0
-depthFrame0384.png, Hole, 0.5, -30, 0
-depthFrame0384.png, Victim, 0.5, -30, 0
-depthFrame0385.png, Hole, 0.5, -60, 0
-depthFrame0385.png, Victim, 0.5, -60, 0
-depthFrame0386.png, Hole, 0.5, 30, 0
-depthFrame0386.png, Victim, 0.5, 30, 0
-depthFrame0387.png, Hole, 0.5, 60, 0
-depthFrame0387.png, Victim, 0.5, 60, 0
-thermalFrame0216.pgm, Hole, 0.50, 0, 0
-thermalFrame0217.pgm, Hole, 0.50, 30, 0
-thermalFrame0218.pgm, Hole, 0.50, -60, 0
-thermalFrame0219.pgm, Hole, 0.50, -30, 0
-thermalFrame0220.pgm, Hole, 0.50, -60, 0
-thermalFrame0221.pgm, Hole, 1.00, 0, 0
-thermalFrame0222.pgm, Hole, 1.00, 30, 0
-thermalFrame0223.pgm, Hole, 1.00, 60, 0
-thermalFrame0225.pgm, Hole, 1.00, -30, 0
-thermalFrame0226.pgm, Hole, 1.00, -60, 0
-thermalFrame0227.pgm, Hole, 2.00, 0, 0
-thermalFrame0228.pgm, Hole, 2.00, 30, 0
-thermalFrame0229.pgm, Hole, 2.00, -60, 0
-thermalFrame0230.pgm, Hole, 2.00, -30, 0
-thermalFrame0231.pgm, Hole, 2.00, -60, 0
-thermalFrame0232.pgm, Hole, 3.00, 0, 0
-thermalFrame0233.pgm, Hole, 3.00, 30, 0
-thermalFrame0234.pgm, Hole, 3.00, 60, 0
-thermalFrame0235.pgm, Hole, 3.00, -30, 0
-thermalFrame0236.pgm, Hole, 3.00, -60, 0
-thermalFrame0237.pgm, Hole, 0.50, 0, 0
-thermalFrame0238.pgm, Hole, 0.50, 30, 0
-thermalFrame0239.pgm, Hole, 0.50, 60, 0
-thermalFrame0240.pgm, Hole, 0.50, -30, 0
-thermalFrame0241.pgm, Hole, 0.50, -30, 0
-thermalFrame0242.pgm, Hole, 1.00, 0, 0
-thermalFrame0243.pgm, Hole, 1.00, 30, 0
-thermalFrame0244.pgm, Hole, 1.00, -60, 0
-thermalFrame0245.pgm, Hole, 1.00, -30, 0
-thermalFrame0246.pgm, Hole, 1.00, -60, 0
-thermalFrame0247.pgm, Hole, 2.00, 0, 0
-thermalFrame0248.pgm, Hole, 2.00, 30, 0
-thermalFrame0249.pgm, Hole, 2.00, 60, 0
-thermalFrame0250.pgm, Hole, 2.00, -30, 0
-thermalFrame0251.pgm, Hole, 2.00, -60, 0
-thermalFrame0252.pgm, Hole, 3.00, 0, 0
-thermalFrame0253.pgm, Hole, 3.00, -30, 0
-thermalFrame0254.pgm, Hole, 3.00, -60, 0
-thermalFrame0255.pgm, Hole, 3.00, 30, 0
-thermalFrame0256.pgm, Hole, 3.00, 60, 0
-thermalFrame0257.pgm, Hole, 0.50, 0, 0
-thermalFrame0258.pgm, Hole, 0.50, -30, 0
-thermalFrame0259.pgm, Hole, 0.50, -30, 0
-thermalFrame0260.pgm, Hole, 0.50, 30, 0
-thermalFrame0261.pgm, Hole, 0.50, 60, 0
-thermalFrame0262.pgm, Hole, 1.00, 0, 0
-thermalFrame0263.pgm, Hole, 1.00, 30, 0
-thermalFrame0264.pgm, Hole, 1.00, 60, 0
-thermalFrame0265.pgm, Hole, 1.00, -30, 0
-thermalFrame0266.pgm, Hole, 1.00, -30, 0
-thermalFrame0267.pgm, Hole, 2.00, 0, 0
-thermalFrame0268.pgm, Hole, 2.00, 30, 0
-thermalFrame0269.pgm, Hole, 2.00, 60, 0
-thermalFrame0270.pgm, Hole, 2.00, -30, 0
-thermalFrame0271.pgm, Hole, 2.00, -60, 0
-thermalFrame0272.pgm, Hole, 3.00, 0, 0
-thermalFrame0273.pgm, Hole, 3.00, 0, 0
-thermalFrame0274.pgm, Hole, 3.00, -30, 0
-thermalFrame0275.pgm, Hole, 3.00, -60, 0
-thermalFrame0276.pgm, Hole, 3.00, 30, 0
-thermalFrame0277.pgm, Hole, 3.00, -60, 0
+# Image Name, Algorithm, Distance, Horizontal Angle, Vertical Angle, Object Type
+frame0001.png, QR, 0.5, 0, 0, 45 x 45
+frame0002.png, QR, 0.5, -30, 0, 45 x 45
+frame0003.png, QR, 0.5, -60, 0, 45 x 45
+frame0004.png, QR, 0.5, 30, 0 , 45 x 45
+frame0005.png, QR, 0.5, 60, 0, 45 x 45
+frame0006.png, QR, 0.5, 0, 30, 45 x 45
+frame0007.png, QR, 0.5, 0, -30, 45 x 45
+frame0008.png, QR, 1.0, 0, 0, 45 x 45
+frame0009.png, QR, 1.0, 30, 0, 45 x 45
+frame0010.png, QR, 1.0, -30, 0, 45 x 45
+frame0011.png, QR, 1.0, -60, 0, 45 x 45
+frame0012.png, QR, 1.0, 60, 0, 45 x 45
+frame0013.png, QR, 1.0, 0, 30, 45 x 45
+frame0014.png, QR, 1.0, 0, 30, 45 x 45
+frame0015.png, QR, 1.0, 0, -30, 45 x 45
+frame0016.png, QR, 2.0, 0, 0, 45 x 45
+frame0017.png, QR, 2.0, 30, 0, 45 x 45
+frame0018.png, QR, 2.0, -30, 0, 45 x 45
+frame0019.png, QR, 2.0, 60, 0, 45 x 45
+frame0020.png, QR, 2.0, -60, 0 , 45 x 45
+frame0022.png, QR, 2.0, 0, 30 , 45 x 45
+frame0023.png, QR, 2.0, 0, -30 , 45 x 45
+frame0024.png, QR, 3.0, 0, 0, 45 x 45
+frame0025.png, QR, 3.0, 30, 0, 45 x 45
+frame0026.png, QR, 3.0, -30, 0, 45 x 45
+frame0027.png, QR, 3.0, 60, 0, 45 x 45
+frame0028.png, QR, 3.0, -60, 0, 45 x 45
+frame0029.png, QR, 3.0, 0, -30, 45 x 45
+frame0030.png, QR, 3.0, 0, 30, 45 x 45
+frame0031.png, QR, 1.0, 30, 30, 45 x 45
+frame0032.png, QR, 1.0, -30, 30, 45 x 45
+frame0033.png, QR, 1.0, 60, 30, 45 x 45
+frame0034.png, QR, 1.0, -60, 30, 45 x 45
+frame0035.png, QR, 1.0, 30, -30, 45 x 45
+frame0036.png, QR, 1.0, -30, -30, 45 x 45
+frame0037.png, QR, 1.0, 60, -30, 45 x 45
+frame0038.png, QR, 1.0, -60, -30, 45 x 45
+frame0039.png, QR, 0.5, 30, 30, 45 x 45
+frame0040.png, QR, 0.5, -30, 30, 45 x 45
+frame0041.png, QR, 0.5, 60, 30, 45 x 45
+frame0042.png, QR, 0.5, -60, 30, 45 x 45
+frame0043.png, QR, 0.5, 30, -30, 45 x 45
+frame0044.png, QR, 0.5, -30, -30, 45 x 45
+frame0045.png, QR, 0.5, 60, -30, 45 x 45
+frame0046.png, QR, 0.5, -60, -30, 45 x 45
+frame0047.png, LandoltC, 0.5, 0, 0, Large
+frame0048.png, LandoltC, 0.5, 30, 0, Large
+frame0049.png, LandoltC, 0.5, -30, 0, Large
+frame0050.png, LandoltC, 0.5, 60, 0, Large
+frame0051.png, LandoltC, 0.5, -60, 0, Large
+frame0052.png, LandoltC, 0.5, 0, 30, Large
+frame0053.png, LandoltC, 0.5, 0, -30, Large
+frame0054.png, LandoltC, 0.5, 30, 30, Large
+frame0055.png, LandoltC, 0.5, -30, 30, Large
+frame0056.png, LandoltC, 0.5, 60, 30, Large
+frame0057.png, LandoltC, 0.5, -60, 30, Large
+frame0058.png, LandoltC, 0.5, 30, -30, Large
+frame0059.png, LandoltC, 0.5, -30, -30, Large
+frame0060.png, LandoltC, 0.5, 60, -30, Large
+frame0061.png, LandoltC, 0.5, -60, -30, Large
+frame0062.png, LandoltC, 1.0, 0, 0, Large
+frame0063.png, LandoltC, 1.0, 30, 0, Large
+frame0064.png, LandoltC, 1.0, -30, 0, Large
+frame0065.png, LandoltC, 1.0, 60, 0, Large
+frame0066.png, LandoltC, 1.0, -60, 0, Large
+frame0067.png, LandoltC, 1.0, 0, 30, Large
+frame0068.png, LandoltC, 1.0, 0, 30, Large
+frame0069.png, LandoltC, 1.0, 30, 30, Large
+frame0070.png, LandoltC, 1.0, -30, 30, Large
+frame0071.png, LandoltC, 1.0, 60, 30, Large
+frame0072.png, LandoltC, 1.0, -60, 30, Large
+frame0073.png, LandoltC, 1.0, 0, -30, Large
+frame0074.png, LandoltC, 1.0, 30, -30, Large
+frame0075.png, LandoltC, 1.0, -30, -30, Large
+frame0076.png, LandoltC, 1.0, -30, -30, Large
+frame0077.png, LandoltC, 1.0, 60, -30, Large
+frame0078.png, LandoltC, 1.0, -60, -30, Large
+frame0079.png, LandoltC, 2.0, 0, 0, Large
+frame0080.png, LandoltC, 2.0, 30, 0, Large
+frame0081.png, LandoltC, 2.0, -30, 0, Large
+frame0082.png, LandoltC, 2.0, 60, 0, Large
+frame0083.png, LandoltC, 2.0, -60, 0, Large
+frame0084.png, LandoltC, 2.0, 0, 30, Large
+frame0085.png, LandoltC, 2.0, 30, 30, Large
+frame0086.png, LandoltC, 2.0, -30, 30, Large
+frame0087.png, LandoltC, 2.0, 60, 30, Large
+frame0088.png, LandoltC, 2.0, -60, 30, Large
+frame0089.png, LandoltC, 2.0, 0, -30, Large
+frame0090.png, LandoltC, 2.0, 0, -30, Large
+frame0091.png, LandoltC, 2.0, 30, -30, Large
+frame0092.png, LandoltC, 2.0, -30, -30, Large
+frame0093.png, LandoltC, 2.0, 60, -30, Large
+frame0094.png, LandoltC, 2.0, -60, -30, Large
+frame0095.png, LandoltC, 3.0, 0, 0, Large
+frame0096.png, LandoltC, 3.0, 30, 0, Large
+frame0097.png, LandoltC, 3.0, -30, 0, Large
+frame0098.png, LandoltC, 3.0, 60, 0, Large
+frame0099.png, LandoltC, 3.0, -60, 0, Large
+frame0100.png, LandoltC, 3.0, 0, 30, Large
+frame0101.png, LandoltC, 3.0, 0, -30, Large
+frame0102.png, Hazmat, 0.5, 0, 0, 3
+frame0103.png, Hazmat, 0.5, 30, 0, 3
+frame0104.png, Hazmat, 0.5, -30, 0, 3
+frame0105.png, Hazmat, 0.5, 60, 0, 3
+frame0106.png, Hazmat, 0.5, -60, 0, 3
+frame0107.png, Hazmat, 0.5, 0, 30, 3
+frame0108.png, Hazmat, 0.5, 30, 30, 3
+frame0109.png, Hazmat, 0.5, -30, 30, 3
+frame0110.png, Hazmat, 0.5, 60, 30, 3
+frame0111.png, Hazmat, 0.5, -60, 30, 3
+frame0112.png, Hazmat, 0.5, 0, -30, 3
+frame0113.png, Hazmat, 0.5, 30, -30, 3
+frame0114.png, Hazmat, 0.5, -30, -30, 3
+frame0115.png, Hazmat, 0.5, 60, -30, 3
+frame0116.png, Hazmat, 0.5, -60, -30, 3
+frame0117.png, Hazmat, 1.0, 0, 0, 3
+frame0118.png, Hazmat, 1.0, 30, 0, 3
+frame0119.png, Hazmat, 1.0, -30, 0, 3
+frame0120.png, Hazmat, 1.0, 60, 0, 3
+frame0121.png, Hazmat, 1.0, -60, 0, 3
+frame0122.png, Hazmat, 1.0, 0, 30, 3
+frame0123.png, Hazmat, 1.0, 30, 30, 3
+frame0124.png, Hazmat, 1.0, -30, 30, 3
+frame0125.png, Hazmat, 1.0, 60, 30, 3
+frame0126.png, Hazmat, 1.0, -60, 30, 3
+frame0127.png, Hazmat, 1.0, 0, -30, 3
+frame0128.png, Hazmat, 1.0, 30, -30, 3
+frame0129.png, Hazmat, 1.0, -30, -30, 3
+frame0130.png, Hazmat, 1.0, 60, -30, 3
+frame0131.png, Hazmat, 1.0, -60, -30, 3
+frame0132.png, Hazmat, 2.0, 0, 0, 3
+frame0133.png, Hazmat, 2.0, 30, 0, 3
+frame0134.png, Hazmat, 2.0, 60, 0, 3
+frame0135.png, Hazmat, 2.0, -30, 0, 3
+frame0136.png, Hazmat, 2.0, -60, 0, 3
+frame0137.png, Hazmat, 2.0, -60, 0, 3
+frame0138.png, Hazmat, 2.0, -60, 0, 3
+frame0139.png, Hazmat, 2.0, 0, 30, 3
+frame0140.png, Hazmat, 2.0, -30, 30, 3
+frame0141.png, Hazmat, 2.0, 30, 30, 3
+frame0142.png, Hazmat, 2.0, 0, 0, 3
+frame0143.png, Hazmat, 2.0, 30, 0, 3
+frame0144.png, Hazmat, 2.0, 60, 0, 3
+frame0145.png, Hazmat, 2.0, -30, 0, 3
+frame0146.png, Hazmat, 2.0, -60, 0, 3
+frame0147.png, Hazmat, 2.0, -60, 0, 3
+frame0148.png, Hazmat, 2.0, 0, 30, 3
+frame0149.png, Hazmat, 2.0, 30, 30, 3
+frame0150.png, Hazmat, 2.0, 60, 30, 3
+frame0151.png, Hazmat, 2.0, 60, 30, 3
+frame0152.png, Hazmat, 2.0, -30, 30, 3
+frame0153.png, Hazmat, 2.0, -60, 30, 3
+frame0154.png, Hazmat, 2.0, -60, 30, 3
+frame0155.png, Hazmat, 2.0, 0, -30, 3
+frame0156.png, Hazmat, 2.0, 30, -30, 3
+frame0157.png, Hazmat, 2.0, 60, -30, 3
+frame0158.png, Hazmat, 2.0, -30, -30, 3
+frame0159.png, Hazmat, 2.0, -60, -30, 3
+frame0160.png, Hazmat, 2.0, 0, -30, 11
+frame0161.png, Hazmat, 2.0, 30, -30, 11
+frame0162.png, Hazmat, 2.0, 60, -30, 11
+frame0163.png, Hazmat, 2.0, 60, -30, 11
+frame0164.png, Hazmat, 2.0, -30, -30, 11
+frame0165.png, Hazmat, 2.0, -60, -30, 11
+frame0166.png, Hazmat, 2.0, -60, -30, 11
+frame0167.png, Hazmat, 2.0, 0, 0, 11
+frame0168.png, Hazmat, 2.0, 30, 0, 11
+frame0169.png, Hazmat, 2.0, 60, 0, 11
+frame0170.png, Hazmat, 2.0, 60, 0, 11
+frame0171.png, Hazmat, 2.0, -30, 0, 11
+frame0172.png, Hazmat, 2.0, -60, 0, 11
+frame0173.png, Hazmat, 2.0, -60, 0, 11
+frame0174.png, Hazmat, 2.0, 0, 30, 11
+frame0175.png, Hazmat, 2.0, 30, 30, 11
+frame0176.png, Hazmat, 2.0, 60, 30, 11
+frame0177.png, Hazmat, 2.0, 60, 30, 11
+frame0178.png, Hazmat, 2.0, -30, 30, 11
+frame0179.png, Hazmat, 2.0, -60, 30, 11
+frame0180.png, Hazmat, 2.0, -60, 30, 11
+frame0181.png, Hazmat, 1.0, 0, 0, 11
+frame0182.png, Hazmat, 1.0, 30, 0, 11
+frame0183.png, Hazmat, 1.0, 60, 0, 11
+frame0184.png, Hazmat, 1.0, 60, 0, 11
+frame0185.png, Hazmat, 1.0, -30, 0, 11
+frame0186.png, Hazmat, 1.0, -60, 0, 11
+frame0187.png, Hazmat, 1.0, -60, 0, 11
+frame0188.png, Hazmat, 1.0, 0, 30, 11
+frame0189.png, Hazmat, 1.0, 30, 30, 11
+frame0190.png, Hazmat, 1.0, 60, 30, 11
+frame0191.png, Hazmat, 1.0, 60, 30, 11
+frame0192.png, Hazmat, 1.0, -30, 30, 11
+frame0193.png, Hazmat, 1.0, -60, 30, 11
+frame0194.png, Hazmat, 1.0, -60, 30, 11
+frame0195.png, Hazmat, 0.5, 0, 0, 11
+frame0196.png, Hazmat, 0.5, 30, 0, 11
+frame0197.png, Hazmat, 0.5, 60, 0, 11
+frame0198.png, Hazmat, 0.5, 60, 0, 11
+frame0199.png, Hazmat, 0.5, -30, 0, 11
+frame0200.png, Hazmat, 0.5, -60, 0, 11
+frame0201.png, Hazmat, 0.5, -60, 0, 11
+frame0202.png, Hazmat, 0.5, 0, -30, 11
+frame0203.png, Hazmat, 0.5, -30, -30, 11
+frame0204.png, Hazmat, 0.5, -60, -30, 11
+frame0205.png, Hazmat, 0.5, -60, -30, 11
+frame0206.png, Hazmat, 0.5, 30, -30, 11
+frame0207.png, Hazmat, 0.5, 60, -30, 11
+frame0208.png, Hazmat, 0.5, 60, -30, 11
+frame0209.png, Hazmat, 0.5, 0, 30, 11
+frame0210.png, Hazmat, 0.5, 30, 30, 11
+frame0211.png, Hazmat, 0.5, 60, 30, 11
+frame0212.png, Hazmat, 0.5, 60, 30, 11
+frame0213.png, Hazmat, 0.5, -30, 30, 11
+frame0214.png, Hazmat, 0.5, -60, 30, 11
+frame0215.png, Hazmat, 0.5, -60, 30, 11
+frame0229.png, Hazmat, 2.00, 60, 0, 11
+frame0234.png, Hazmat, 3.00, 30, 0, 11
+frame0237.png, Hole, 0.50, 0, 0, Single
+frame0237.png, Victim, 0.50, 0, 0, Single
+frame0238.png, Hole, 0.50, -30, 0, Single
+frame0238.png, Victim, 0.50, -30, 0, Single
+frame0239.png, Hole, 0.50, -60, 0, Single
+frame0240.png, Hole, 0.50, 30, 0, Single
+frame0240.png, Victim, 0.50, 30, 0, Single
+frame0241.png, Hole, 0.50, 30, 0, Single
+frame0242.png, Hole, 1.00, 0, 0, Single
+frame0242.png, Victim, 1.00, 0, 0, Single
+frame0243.png, Hole, 1.00, -30, 0, Single
+frame0243.png, Victim, 1.00, -30, 0, Single
+frame0244.png, Hole, 1.00, 60, 0, Single
+frame0244.png, Hazmat, 1.00, -60, 0, 11
+frame0245.png, Hole, 1.00, 30, 0, Single
+frame0245.png, Victim, 1.00, 30, 0, Single
+frame0246.png, Hole, 1.00, 60, 0, Single
+frame0247.png, Hole, 2.00, 0, 0, Single
+frame0247.png, Victim, 2.00, 0, 0, Single
+frame0248.png, Hole, 2.00, -30, 0, Single
+frame0248.png, Victim, 2.00, -30, 0, Single
+frame0249.png, Hole, 2.00, -60, 0, Single
+frame0249.png, Hazmat, 2.00, 30, 0, 11
+frame0250.png, Hole, 2.00, 30, 0, Single
+frame0250.png, Victim, 2.00, 30, 0, Single
+frame0251.png, Hole, 2.00, 60, 0, Single
+frame0252.png, Hole, 3.00, 0, 0, Single
+frame0252.png, Victim, 3.00, 0, 0, Single
+frame0253.png, Hole, 3.00, 30, 0, Single
+frame0253.png, Victim, 3.00, 30, 0, Single
+frame0254.png, Hole, 3.00, -60, 0, Single
+frame0255.png, Hole, 3.00, -30, 0, Single
+frame0255.png, Victim, 3.00, -30, 0, Single
+frame0256.png, Hole, 3.00, -60, 0, Single
+frame0256.png, Hazmat, 3.00, 30, 0, 11
+frame0257.png, Hole, 0.50, 0, 0, Single
+frame0258.png, Hole, 0.50, 30, 0, Single
+frame0259.png, Hole, 0.50, 60, 0, Single
+frame0260.png, Hole, 0.50, -30, 0, Single
+frame0261.png, Hole, 0.50, -60, 0, Single
+frame0262.png, Hole, 1.00, 0, 0, Single
+frame0263.png, Hole, 1.00, -30, 0, Single
+frame0263.png, Hazmat, 1.00, 60, 0, 11
+frame0264.png, Hole, 1.00, -60, 0, Single
+frame0264.png, Hazmat, 1.00, 30, 0, 11
+frame0265.png, Hole, 1.00, 30, 0, Single
+frame0266.png, Hole, 1.00, 60, 0, Single
+frame0267.png, Hole, 2.00, 0, 0, Single
+frame0268.png, Hole, 2.00, -30, 0, Single
+frame0269.png, Hole, 2.00, -60, 0, Single
+frame0269.png, Hazmat, 2.00, 30, 0, 11
+frame0270.png, Hole, 2.00, 30, 0, Single
+frame0271.png, Hole, 2.00, 60, 0, Single
+frame0272.png, Hole, 3.00, 0, 0, Single
+frame0273.png, Hole, 3.00, 0, 0, Single
+frame0274.png, Hole, 3.00, 30, 0, Single
+frame0275.png, Hole, 3.00, 60, 0, Single
+frame0276.png, Hole, 3.00, -30, 0, Single
+frame0276.png, Hazmat, 3.00, 60, 0, 11
+frame0277.png, Hole, 3.00, -60, 0, Single
+frame0277.png, Hazmat, 3.00, 30, 0, 11
+frame0278.png, QR, 0.5, 0, 0, 21 x 21
+frame0279.png, QR, 0.5, -30, 0, 21 x 21
+frame0280.png, QR, 0.5, -60, 0, 21 x 21
+frame0281.png, QR, 0.5, 30, 0, 21 x 21
+frame0282.png, QR, 0.5, 60, 0, 21 x 21
+frame0283.png, QR, 1.0, 0, 0, 21 x 21
+frame0284.png, QR, 1.0, -30, 0, 21 x 21
+frame0285.png, QR, 1.0, -60, 0, 21 x 21
+frame0286.png, QR, 1.0, 30, 0, 21 x 21
+frame0287.png, QR, 1.0, 60, 0, 21 x 21
+frame0288.png, QR, 2.0, 0, 0, 21 x 21
+frame0289.png, QR, 2.0, -30, 0, 21 x 21
+frame0290.png, QR, 2.0, -60, 0, 21 x 21
+frame0291.png, QR, 2.0, 30, 0, 21 x 21
+frame0292.png, QR, 2.0, 60, 0, 21 x 21
+frame0293.png, QR, 3.0, 0, 0, 21 x 21
+frame0294.png, QR, 3.0, -30, 0, 21 x 21
+frame0295.png, QR, 3.0, -60, 0, 21 x 21
+frame0296.png, QR, 3.0, 30, 0, 21 x 21
+frame0297.png, QR, 3.0, 60, 0, 21 x 21
+frame0298.png, LandoltC, 3.0, 0, 0, Large
+frame0298.png, LandoltC, 3.0, 0, 0, Small
+frame0298.png, Hazmat, 3.0, 0, 0, 11
+frame0298.png, Hazmat, 3.0, 0, 0, 5
+frame0298.png, Hazmat, 3.0, 0, 0, 2
+frame0299.png, LandoltC, 3.0, -30, 0, Large
+frame0299.png, LandoltC, 3.0, -30, 0, Small
+frame0299.png, Hazmat, 3.0, -30, 0, 11
+frame0299.png, Hazmat, 3.0, -30, 0, 5
+frame0299.png, Hazmat, 3.0, -30, 0, 2
+frame0300.png, LandoltC, 3.0, 30, 0, Large
+frame0300.png, LandoltC, 3.0, 30, 0, Small
+frame0300.png, Hazmat, 3.0, 30, 0, 11
+frame0300.png, Hazmat, 3.0, 30, 0, 5
+frame0300.png, Hazmat, 3.0, 30, 0, 2
+frame0301.png, LandoltC, 3.0, 60, 0, Large
+frame0301.png, LandoltC, 3.0, 60, 0, Small
+frame0301.png, Hazmat, 3.0, 60, 0, 11
+frame0301.png, Hazmat, 3.0, 60, 0, 5
+frame0301.png, Hazmat, 3.0, 60, 0, 2
+frame0302.png, LandoltC, 2.0, 0, 0, Large
+frame0302.png, LandoltC, 2.0, 0, 0, Small
+frame0302.png, Hazmat, 2.0, 0, 0, 11
+frame0302.png, Hazmat, 2.0, 0, 0, 5
+frame0302.png, Hazmat, 2.0, 0, 0, 2
+frame0303.png, LandoltC, 2.0, 30, 0, Large
+frame0303.png, LandoltC, 2.0, 30, 0, Small
+frame0303.png, Hazmat, 2.0, 30, 0, 11
+frame0303.png, Hazmat, 2.0, 30, 0, 5
+frame0303.png, Hazmat, 2.0, 30, 0, 2
+frame0304.png, LandoltC, 2.0, 60, 0, Large
+frame0304.png, LandoltC, 2.0, 60, 0, Small
+frame0304.png, Hazmat, 2.0, 60, 0, 11
+frame0304.png, Hazmat, 2.0, 60, 0, 5
+frame0304.png, Hazmat, 2.0, 60, 0, 2
+frame0305.png, LandoltC, 2.0, 60, 0, Large
+frame0305.png, LandoltC, 2.0, 60, 0, Small
+frame0305.png, Hazmat, 2.0, 60, 0, 11
+frame0305.png, Hazmat, 2.0, 60, 0, 5
+frame0305.png, Hazmat, 2.0, 60, 0, 2
+frame0306.png, LandoltC, 2.0, -30, 0, Large
+frame0306.png, LandoltC, 2.0, -30, 0, Small
+frame0306.png, Hazmat, 2.0, -30, 0, 11
+frame0306.png, Hazmat, 2.0, -30, 0, 5
+frame0306.png, Hazmat, 2.0, -30, 0, 2
+frame0307.png, LandoltC, 2.0, -60, 0, Large
+frame0307.png, LandoltC, 2.0, -60, 0, Small
+frame0307.png, Hazmat, 2.0, -60, 0, 11
+frame0307.png, Hazmat, 2.0, -60, 0, 5
+frame0307.png, Hazmat, 2.0, -60, 0, 2
+frame0308.png, LandoltC, 1.0, 0, 0, Large
+frame0308.png, LandoltC, 1.0, 0, 0, Small
+frame0308.png, Hazmat, 1.0, 0, 0, 11
+frame0308.png, Hazmat, 1.0, 0, 0, 5
+frame0308.png, Hazmat, 1.0, 0, 0, 2
+frame0309.png, LandoltC, 1.0, -30, 0, Large
+frame0309.png, LandoltC, 1.0, -30, 0, Small
+frame0309.png, Hazmat, 1.0, -30, 0, 11
+frame0309.png, Hazmat, 1.0, -30, 0, 5
+frame0309.png, Hazmat, 1.0, -30, 0, 2
+frame0310.png, LandoltC, 1.0, -60, 0, Large
+frame0310.png, LandoltC, 1.0, -60, 0, Small
+frame0310.png, Hazmat, 1.0, -60, 0, 11
+frame0310.png, Hazmat, 1.0, -60, 0, 5
+frame0310.png, Hazmat, 1.0, -60, 0, 2
+frame0311.png, LandoltC, 1.0, 30, 0, Large
+frame0311.png, LandoltC, 1.0, 30, 0, Small
+frame0311.png, Hazmat, 1.0, 30, 0, 11
+frame0311.png, Hazmat, 1.0, 30, 0, 5
+frame0311.png, Hazmat, 1.0, 30, 0, 2
+frame0312.png, LandoltC, 1.0, 60, 0, Large
+frame0312.png, LandoltC, 1.0, 60, 0, Small
+frame0312.png, Hazmat, 1.0, 60, 0, 11
+frame0312.png, Hazmat, 1.0, 60, 0, 5
+frame0312.png, Hazmat, 1.0, 60, 0, 2
+frame0313.png, LandoltC, 0.5, 0, 0, Large
+frame0313.png, LandoltC, 0.5, 0, 0, Small
+frame0313.png, Hazmat, 0.5, 0, 0, 11
+frame0313.png, Hazmat, 0.5, 0, 0, 5
+frame0313.png, Hazmat, 0.5, 0, 0, 2
+frame0314.png, LandoltC, 0.5, 30, 0, Large
+frame0314.png, LandoltC, 0.5, 30, 0, Small
+frame0314.png, Hazmat, 0.5, 30, 0, 11
+frame0314.png, Hazmat, 0.5, 30, 0, 5
+frame0314.png, Hazmat, 0.5, 30, 0, 2
+frame0315.png, LandoltC, 0.5, 60, 0, Large
+frame0315.png, LandoltC, 0.5, 60, 0, Small
+frame0315.png, Hazmat, 0.5, 60, 0, 11
+frame0315.png, Hazmat, 0.5, 60, 0, 5
+frame0316.png, LandoltC, 0.5, -30, 0, Large
+frame0316.png, LandoltC, 0.5, -30, 0, Small
+frame0316.png, Hazmat, 0.5, -30, 0, 11
+frame0316.png, Hazmat, 0.5, -30, 0, 5
+frame0316.png, Hazmat, 0.5, -30, 0, 2
+frame0317.png, LandoltC, 0.5, -60, 0, Large
+frame0317.png, LandoltC, 0.5, -60, 0, Small
+frame0317.png, Hazmat, 0.5, -60, 0, 11
+frame0317.png, Hazmat, 0.5, -60, 0, 5
+frame0317.png, Hazmat, 0.5, -60, 0, 2
+frame0318.png, Hazmat, 0.5, 0, 0, 6
+frame0318.png, Hazmat, 0.5, 0, 0, 7
+frame0319.png, LandoltC, 0.5, 0, 0, Large
+frame0319.png, Hazmat, 0.5, 0, 0, 6
+frame0320.png, QR, 0.5, 0, 0, 25 x 25
+frame0320.png, LandoltC, 0.5, 0, 0, Large
+frame0320.png, Hazmat, 0.5, 0, 0, 6
+frame0321.png, Hazmat, 0.5, 0, 0, 7
+frame0321.png, Hazmat, 0.5, 0, 0, 3
+frame0322.png, LandoltC, 0.5, 0, 0, Large
+frame0322.png, Hazmat, 0.5, 0, 0, 6
+frame0322.png, Hazmat, 0.5, 0, 0, 7
+frame0323.png, LandoltC, 0.5, -30, 0, Large
+frame0323.png, Hazmat, 0.5, -30, 0, 6
+frame0323.png, Hazmat, 0.5, -30, 0, 7
+frame0324.png, QR, 0.5, -30, 0, 25 x 25
+frame0324.png, Hazmat, 0.5, -30, 0, 7
+frame0324.png, Hazmat, 0.5, -30, 0, 3
+frame0325.png, LandoltC, 0.5, -60, 0, Large
+frame0325.png, Hazmat, 0.5, -60, 0, 6
+frame0325.png, Hazmat, 0.5, -60, 0, 7
+frame0326.png, QR, 0.5, -60, 0, 25 x 25
+frame0326.png, Hazmat, 0.5, -60, 0, 7
+frame0326.png, Hazmat, 0.5, -60, 0, 3
+frame0327.png, LandoltC, 0.5, 30, 0, Large
+frame0327.png, Hazmat, 0.5, 30, 0, 6
+frame0327.png, Hazmat, 0.5, 30, 0, 7
+frame0328.png, LandoltC, 0.5, 30, 0, Large
+frame0328.png, Hazmat, 0.5, 30, 0, 6
+frame0328.png, Hazmat, 0.5, 30, 0, 7
+frame0329.png, QR, 0.5, 30, 0, 25 x 25
+frame0329.png, Hazmat, 0.5, 30, 0, 7
+frame0329.png, Hazmat, 0.5, 30, 0, 3
+frame0330.png, LandoltC, 0.5, 60, 0, Large
+frame0330.png, Hazmat, 0.5, 60, 0, 6
+frame0330.png, Hazmat, 0.5, 60, 0, 7
+frame0331.png, LandoltC, 0.5, 60, 0, Large
+frame0331.png, Hazmat, 0.5, 60, 0, 6
+frame0331.png, Hazmat, 0.5, 60, 0, 7
+frame0332.png, QR, 0.5, 60, 0, 25 x 25
+frame0332.png, Hazmat, 0.5, 60, 0, 3
+frame0333.png, QR, 1.0, 0, 0, 25 x 25
+frame0333.png, LandoltC, 1.0, 0, 0, Large
+frame0333.png, Hazmat, 1.0, 0, 0, 6
+frame0333.png, Hazmat, 1.0, 0, 0, 7
+frame0333.png, Hazmat, 1.0, 0, 0, 3
+frame0334.png, QR, 1.0, -30, 0, 25 x 25
+frame0334.png, LandoltC, 1.0, -30, 0, Large
+frame0334.png, Hazmat, 1.0, -30, 0, 6
+frame0334.png, Hazmat, 1.0, -30, 0, 7
+frame0334.png, Hazmat, 1.0, -30, 0, 3
+frame0335.png, QR, 1.0, -60, 0, 25 x 25
+frame0335.png, LandoltC, 1.0, -60, 0, Large
+frame0335.png, Hazmat, 1.0, -60, 0, 6
+frame0335.png, Hazmat, 1.0, -60, 0, 7
+frame0335.png, Hazmat, 1.0, -60, 0, 3
+frame0336.png, QR, 1.0, 30, 0, 25 x 25
+frame0336.png, LandoltC, 1.0, 30, 0, Large
+frame0336.png, Hazmat, 1.0, 30, 0, 6
+frame0336.png, Hazmat, 1.0, 30, 0, 7
+frame0336.png, Hazmat, 1.0, 30, 0, 3
+frame0337.png, QR, 1.0, 60, 0, 25 x 25
+frame0337.png, LandoltC, 1.0, 60, 0, Large
+frame0337.png, Hazmat, 1.0, 60, 0, 6
+frame0337.png, Hazmat, 1.0, 60, 0, 7
+frame0337.png, Hazmat, 1.0, 60, 0, 3
+frame0338.png, QR, 2.0, 0, 0, 25 x 25
+frame0338.png, LandoltC, 2.0, 0, 0, Large
+frame0338.png, Hazmat, 2.0, 0, 0, 6
+frame0338.png, Hazmat, 2.0, 0, 0, 7
+frame0338.png, Hazmat, 2.0, 0, 0, 3
+frame0339.png, QR, 2.0, -30, 0, 25 x 25
+frame0339.png, LandoltC, 2.0, -30, 0, Large
+frame0339.png, Hazmat, 2.0, -30, 0, 6
+frame0339.png, Hazmat, 2.0, -30, 0, 7
+frame0339.png, Hazmat, 2.0, -30, 0, 3
+frame0340.png, QR, 2.0, -60, 0, 25 x 25
+frame0340.png, LandoltC, 2.0, -60, 0, Large
+frame0340.png, Hazmat, 2.0, -60, 0, 6
+frame0340.png, Hazmat, 2.0, -60, 0, 7
+frame0340.png, Hazmat, 2.0, -60, 0, 3
+frame0341.png, QR, 2.0, 30, 0, 25 x 25
+frame0341.png, LandoltC, 2.0, 30, 0, Large
+frame0341.png, Hazmat, 2.0, 30, 0, 6
+frame0341.png, Hazmat, 2.0, 30, 0, 7
+frame0341.png, Hazmat, 2.0, 30, 0, 3
+frame0342.png, QR, 2.0, 60, 0, 25 x 25
+frame0342.png, LandoltC, 2.0, 60, 0, Large
+frame0342.png, Hazmat, 2.0, 60, 0, 6
+frame0342.png, Hazmat, 2.0, 60, 0, 7
+frame0342.png, Hazmat, 2.0, 60, 0, 3
+frame0343.png, QR, 3, 0, 0, 25 x 25
+frame0343.png, LandoltC, 3, 0, 0, Large
+frame0343.png, Hazmat, 3, 0, 0, 6
+frame0343.png, Hazmat, 3, 0, 0, 7
+frame0343.png, Hazmat, 3, 0, 0, 3
+frame0344.png, QR, 3, -30, 0, 25 x 25
+frame0344.png, LandoltC, 3, -30, 0, Large
+frame0344.png, Hazmat, 3, -30, 0, 6
+frame0344.png, Hazmat, 3, -30, 0, 7
+frame0344.png, Hazmat, 3, -30, 0, 3
+frame0345.png, QR, 3, -60, 0, 25 x 25
+frame0345.png, LandoltC, 3, -60, 0, Large
+frame0345.png, Hazmat, 3, -60, 0, 6
+frame0345.png, Hazmat, 3, -60, 0, 7
+frame0345.png, Hazmat, 3, -60, 0, 3
+frame0346.png, QR, 3, 30, 0, 25 x 25
+frame0346.png, LandoltC, 3, 30, 0, Large
+frame0346.png, Hazmat, 3, 30, 0, 6
+frame0346.png, Hazmat, 3, 30, 0, 7
+frame0346.png, Hazmat, 3, 30, 0, 3
+frame0347.png, QR, 3, 60, 0, 25 x 25
+frame0347.png, LandoltC, 3, 60, 0, Large
+frame0347.png, Hazmat, 3, 60, 0, 6
+frame0347.png, Hazmat, 3, 60, 0, 7
+frame0347.png, Hazmat, 3, 60, 0, 3
+frame0348.png, QR, 0.5, 0, 0, 25 x 25
+frame0348.png, Hazmat, 0.5, 0, 0, 6
+frame0348.png, Hazmat, 0.5, 0, 0, 7
+frame0349.png, QR, 0.5, -30, 0, 25 x 25
+frame0349.png, Hazmat, 0.5, -30, 0, 6
+frame0349.png, Hazmat, 0.5, -30, 0, 7
+frame0350.png, QR, 0.5, -60, 0, 25 x 25
+frame0350.png, Hazmat, 0.5, -60, 0, 6
+frame0350.png, Hazmat, 0.5, -60, 0, 7
+frame0351.png, Hazmat, 0.5, 30, 0, 6
+frame0351.png, Hazmat, 0.5, 30, 0, 7
+frame0352.png, Hazmat, 0.5, 60, 0, 6
+frame0352.png, Hazmat, 0.5, 60, 0, 7
+frame0353.png, QR, 1.0, 0, 0, 25 x 25
+frame0353.png, Hazmat, 1.0, 0, 0, 6
+frame0353.png, Hazmat, 1.0, 0, 0, 7
+frame0353.png, Hazmat, 1.0, 0, 0, 3
+frame0354.png, QR, 1.0, -30, 0, 25 x 25
+frame0354.png, Hazmat, 1.0, -30, 0, 6
+frame0354.png, Hazmat, 1.0, -30, 0, 7
+frame0354.png, Hazmat, 1.0, -30, 0, 3
+frame0355.png, QR, 1.0, -60, 0, 25 x 25
+frame0355.png, Hazmat, 1.0, -60, 0, 6
+frame0355.png, Hazmat, 1.0, -60, 0, 7
+frame0355.png, Hazmat, 1.0, -60, 0, 3
+frame0356.png, QR, 1.0, 30, 0, 25 x 25
+frame0356.png, Hazmat, 1.0, 30, 0, 6
+frame0356.png, Hazmat, 1.0, 30, 0, 7
+frame0356.png, Hazmat, 1.0, 30, 0, 3
+frame0357.png, QR, 1.0, 60, 0, 25 x 25
+frame0357.png, Hazmat, 1.0, 60, 0, 6
+frame0357.png, Hazmat, 1.0, 60, 0, 7
+frame0357.png, Hazmat, 1.0, 60, 0, 3
+frame0358.png, QR, 2.0, 0, 0, 25 x 25
+frame0358.png, Hazmat, 2.0, 0, 0, 6
+frame0358.png, Hazmat, 2.0, 0, 0, 7
+frame0358.png, Hazmat, 2.0, 0, 0, 3
+frame0359.png, QR, 2.0, -30, 0, 25 x 25
+frame0359.png, Hazmat, 2.0, -30, 0, 6
+frame0359.png, Hazmat, 2.0, -30, 0, 7
+frame0359.png, Hazmat, 2.0, -30, 0, 3
+frame0360.png, QR, 2.0, -60, 0, 25 x 25
+frame0360.png, Hazmat, 2.0, -60, 0, 6
+frame0360.png, Hazmat, 2.0, -60, 0, 7
+frame0360.png, Hazmat, 2.0, -60, 0, 3
+frame0361.png, QR, 2.0, 30, 0, 25 x 25
+frame0361.png, Hazmat, 2.0, 30, 0, 6
+frame0361.png, Hazmat, 2.0, 30, 0, 7
+frame0361.png, Hazmat, 2.0, 30, 0, 3
+frame0362.png, QR, 2.0, 60, 0, 25 x 25
+frame0362.png, Hazmat, 2.0, 60, 0, 6
+frame0362.png, Hazmat, 2.0, 60, 0, 7
+frame0362.png, Hazmat, 2.0, 60, 0, 3
+frame0363.png, QR, 3.0, 0, 0, 25 x 25
+frame0363.png, Hazmat, 3.0, 0, 0, 6
+frame0363.png, Hazmat, 3.0, 0, 0, 7
+frame0363.png, Hazmat, 3.0, 0, 0, 3
+frame0364.png, QR, 3.0, -30, 0, 25 x 25
+frame0364.png, Hazmat, 3.0, -30, 0, 6
+frame0364.png, Hazmat, 3.0, -30, 0, 7
+frame0364.png, Hazmat, 3.0, -30, 0, 3
+frame0365.png, QR, 3.0, -60, 0, 25 x 25
+frame0365.png, Hazmat, 3.0, -60, 0, 6
+frame0365.png, Hazmat, 3.0, -60, 0, 7
+frame0365.png, Hazmat, 3.0, -60, 0, 3
+frame0366.png, QR, 3.0, 30, 0, 25 x 25
+frame0366.png, Hazmat, 3.0, 30, 0, 6
+frame0366.png, Hazmat, 3.0, 30, 0, 7
+frame0366.png, Hazmat, 3.0, 30, 0, 3
+frame0367.png, QR, 3.0, 60, 0, 25 x 25
+frame0367.png, Hazmat, 3.0, 60, 0, 6
+frame0367.png, Hazmat, 3.0, 60, 0, 7
+frame0367.png, Hazmat, 3.0, 60, 0, 3
+frame0368.png, QR, 3.0, 0, 0, 25 x 25
+frame0368.png, Hazmat, 3.0, 0, 0, 6
+frame0368.png, Hazmat, 3.0, 0, 0, 7
+frame0368.png, Hazmat, 3.0, 0, 0, 3
+frame0368.png, Hole, 3.0, 0, 0, Single
+frame0368.png, Victim, 3.0, 0, 0, Single
+frame0369.png, QR, 3.0, -30, 0, 25 x 25
+frame0369.png, Hazmat, 3.0, -30, 0, 6
+frame0369.png, Hazmat, 3.0, -30, 0, 7
+frame0369.png, Hazmat, 3.0, -30, 0, 3
+frame0369.png, Hole, 3.0, -30, 0, Single
+frame0369.png, Victim, 3.0, -30, 0, Single
+frame0370.png, QR, 3.0, -60, 0, 25 x 25
+frame0370.png, Hazmat, 3.0, -60, 0, 6
+frame0370.png, Hazmat, 3.0, -60, 0, 7
+frame0370.png, Hazmat, 3.0, -60, 0, 3
+frame0370.png, Hole, 3.0, -60, 0, Single
+frame0370.png, Victim, 3.0, -60, 0, Single
+frame0371.png, QR, 3.0, 30, 0, 25 x 25
+frame0371.png, Hazmat, 3.0, 30, 0, 6
+frame0371.png, Hazmat, 3.0, 30, 0, 7
+frame0371.png, Hazmat, 3.0, 30, 0, 3
+frame0371.png, Hole, 3.0, 30, 0, Single
+frame0371.png, Victim, 3.0, 30, 0, Single
+frame0372.png, QR, 3.0, 60, 0, 25 x 25
+frame0372.png, Hazmat, 3.0, 60, 0, 6
+frame0372.png, Hazmat, 3.0, 60, 0, 7
+frame0372.png, Hazmat, 3.0, 60, 0, 3
+frame0372.png, Hole, 3.0, 60, 0, Single
+frame0372.png, Victim, 3.0, 60, 0, Single
+frame0373.png, QR, 2.0, 0, 0, 25 x 25
+frame0373.png, Hazmat, 2.0, 0, 0, 6
+frame0373.png, Hazmat, 2.0, 0, 0, 7
+frame0373.png, Hazmat, 2.0, 0, 0, 3
+frame0373.png, Hole, 2.0, 0, 0, Single
+frame0373.png, Victim, 2.0, 0, 0, Single
+frame0374.png, QR, 2.0, -30, 0, 25 x 25
+frame0374.png, Hazmat, 2.0, -30, 0, 6
+frame0374.png, Hazmat, 2.0, -30, 0, 7
+frame0374.png, Hazmat, 2.0, -30, 0, 3
+frame0374.png, Hole, 2.0, -30, 0, Single
+frame0374.png, Victim, 2.0, -30, 0, Single
+frame0375.png, QR, 2.0, -60, 0, 25 x 25
+frame0375.png, Hazmat, 2.0, -60, 0, 6
+frame0375.png, Hazmat, 2.0, -60, 0, 7
+frame0375.png, Hazmat, 2.0, -60, 0, 3
+frame0375.png, Hole, 2.0, -60, 0, Single
+frame0375.png, Victim, 2.0, -60, 0, Single
+frame0376.png, QR, 2.0, 30, 0, 25 x 25
+frame0376.png, Hazmat, 2.0, 30, 0, 6
+frame0376.png, Hazmat, 2.0, 30, 0, 7
+frame0376.png, Hazmat, 2.0, 30, 0, 3
+frame0376.png, Hole, 2.0, 30, 0, Single
+frame0376.png, Victim, 2.0, 30, 0, Single
+frame0377.png, QR, 2.0, 60, 0, 25 x 25
+frame0377.png, Hazmat, 2.0, 60, 0, 6
+frame0377.png, Hazmat, 2.0, 60, 0, 7
+frame0377.png, Hazmat, 2.0, 60, 0, 3
+frame0377.png, Hole, 2.0, 60, 0, Single
+frame0377.png, Victim, 2.0, 60, 0, Single
+frame0378.png, QR, 1.0, 0, 0, 25 x 25
+frame0378.png, Hazmat, 1.0, 0, 0, 6
+frame0378.png, Hazmat, 1.0, 0, 0, 7
+frame0378.png, Hazmat, 1.0, 0, 0, 3
+frame0378.png, Hole, 1.0, 0, 0, Single
+frame0378.png, Victim, 1.0, 0, 0, Single
+frame0379.png, QR, 1.0, -30, 0, 25 x 25
+frame0379.png, Hazmat, 1.0, -30, 0, 6
+frame0379.png, Hazmat, 1.0, -30, 0, 7
+frame0379.png, Hazmat, 1.0, -30, 0, 3
+frame0379.png, Hole, 1.0, -30, 0, Single
+frame0379.png, Victim, 1.0, -30, 0, Single
+frame0380.png, QR, 1.0, -60, 0, 25 x 25
+frame0380.png, Hazmat, 1.0, -60, 0, 6
+frame0380.png, Hazmat, 1.0, -60, 0, 7
+frame0380.png, Hazmat, 1.0, -60, 0, 3
+frame0380.png, Hole, 1.0, -60, 0, Single
+frame0380.png, Victim, 1.0, -60, 0, Single
+frame0381.png, QR, 1.0, 30, 0, 25 x 25
+frame0381.png, Hazmat, 1.0, 30, 0, 6
+frame0381.png, Hazmat, 1.0, 30, 0, 7
+frame0381.png, Hazmat, 1.0, 30, 0, 3
+frame0381.png, Hole, 1.0, 30, 0, Single
+frame0381.png, Victim, 1.0, 30, 0, Single
+frame0382.png, QR, 1.0, 60, 0, 25 x 25
+frame0382.png, Hazmat, 1.0, 60, 0, 6
+frame0382.png, Hazmat, 1.0, 60, 0, 7
+frame0382.png, Hazmat, 1.0, 60, 0, 3
+frame0382.png, Hole, 1.0, 60, 0, Single
+frame0382.png, Victim, 1.0, 60, 0, Single
+frame0383.png, QR, 0.5, 0, 0, 25 x 25
+frame0383.png, Hazmat, 0.5, 0, 0, 6
+frame0383.png, Hazmat, 0.5, 0, 0, 7
+frame0383.png, Hole, 0.5, 0, 0, Single
+frame0383.png, Victim, 0.5, 0, 0, Single
+frame0384.png, QR, 0.5, -30, 0, 25 x 25
+frame0384.png, Hazmat, 0.5, -30, 0, 6
+frame0384.png, Hazmat, 0.5, -30, 0, 7
+frame0384.png, Hole, 0.5, -30, 0, Single
+frame0384.png, Victim, 0.5, -30, 0, Single
+frame0385.png, QR, 0.5, -60, 0, 25 x 25
+frame0385.png, Hazmat, 0.5, -60, 0, 6
+frame0385.png, Hazmat, 0.5, -60, 0, 7
+frame0385.png, Hole, 0.5, -60, 0, Single
+frame0385.png, Victim, 0.5, -60, 0, Single
+frame0386.png, Hazmat, 0.5, 30, 0, 6
+frame0386.png, Hazmat, 0.5, 30, 0, 7
+frame0386.png, Hole, 0.5, 30, 0, Single
+frame0386.png, Victim, 0.5, 30, 0, Single
+frame0387.png, Hazmat, 0.5, 60, 0, 6
+frame0387.png, Hazmat, 0.5, 60, 0, 7
+frame0387.png, Hole, 0.5, 60, 0, Single
+frame0387.png, Victim, 0.5, 60, 0, Single
+frame0388.png, Hazmat, 0.5, 60, 0, 6
+frame0388.png, Hazmat, 0.5, 60, 0, 7
+depthFrame0216.png, Hole, 0.50, 0, 0, Single
+depthFrame0217.png, Hole, 0.50, 30, 0, Single
+depthFrame0218.png, Hole, 0.50, -60, 0, Single
+depthFrame0219.png, Hole, 0.50, -30, 0, Single
+depthFrame0220.png, Hole, 0.50, -60, 0, Single
+depthFrame0221.png, Hole, 1.00, 0, 0, Single
+depthFrame0222.png, Hole, 1.00, 30, 0, Single
+depthFrame0223.png, Hole, 1.00, 60, 0, Single
+depthFrame0225.png, Hole, 1.00, -30, 0, Single
+depthFrame0226.png, Hole, 1.00, -60, 0, Single
+depthFrame0227.png, Hole, 2.00, 0, 0, Single
+depthFrame0228.png, Hole, 2.00, 30, 0, Single
+depthFrame0229.png, Hole, 2.00, -60, 0, Single
+depthFrame0230.png, Hole, 2.00, -30, 0, Single
+depthFrame0231.png, Hole, 2.00, -60, 0, Single
+depthFrame0232.png, Hole, 3.00, 0, 0, Single
+depthFrame0233.png, Hole, 3.00, 30, 0, Single
+depthFrame0234.png, Hole, 3.00, 60, 0, Single
+depthFrame0235.png, Hole, 3.00, -30, 0, Single
+depthFrame0236.png, Hole, 3.00, -60, 0, Single
+depthFrame0237.png, Hole, 0.50, 0, 0, Single
+depthFrame0238.png, Hole, 0.50, 30, 0, Single
+depthFrame0239.png, Hole, 0.50, 60, 0, Single
+depthFrame0240.png, Hole, 0.50, -30, 0, Single
+depthFrame0241.png, Hole, 0.50, -30, 0, Single
+depthFrame0242.png, Hole, 1.00, 0, 0, Single
+depthFrame0243.png, Hole, 1.00, 30, 0, Single
+depthFrame0244.png, Hole, 1.00, -60, 0, Single
+depthFrame0245.png, Hole, 1.00, -30, 0, Single
+depthFrame0246.png, Hole, 1.00, -60, 0, Single
+depthFrame0247.png, Hole, 2.00, 0, 0, Single
+depthFrame0248.png, Hole, 2.00, 30, 0, Single
+depthFrame0249.png, Hole, 2.00, 60, 0, Single
+depthFrame0250.png, Hole, 2.00, -30, 0, Single
+depthFrame0251.png, Hole, 2.00, -60, 0, Single
+depthFrame0252.png, Hole, 3.00, 0, 0, Single
+depthFrame0253.png, Hole, 3.00, -30, 0, Single
+depthFrame0254.png, Hole, 3.00, -60, 0, Single
+depthFrame0255.png, Hole, 3.00, 30, 0, Single
+depthFrame0256.png, Hole, 3.00, 60, 0, Single
+depthFrame0257.png, Hole, 0.50, 0, 0, Single
+depthFrame0258.png, Hole, 0.50, -30, 0, Single
+depthFrame0259.png, Hole, 0.50, -30, 0, Single
+depthFrame0260.png, Hole, 0.50, 30, 0, Single
+depthFrame0261.png, Hole, 0.50, 60, 0, Single
+depthFrame0262.png, Hole, 1.00, 0, 0, Single
+depthFrame0263.png, Hole, 1.00, 30, 0, Single
+depthFrame0264.png, Hole, 1.00, 60, 0, Single
+depthFrame0265.png, Hole, 1.00, -30, 0, Single
+depthFrame0266.png, Hole, 1.00, -30, 0, Single
+depthFrame0267.png, Hole, 2.00, 0, 0, Single
+depthFrame0268.png, Hole, 2.00, 30, 0, Single
+depthFrame0269.png, Hole, 2.00, 60, 0, Single
+depthFrame0270.png, Hole, 2.00, -30, 0, Single
+depthFrame0271.png, Hole, 2.00, -60, 0, Single
+depthFrame0272.png, Hole, 3.00, 0, 0, Single
+depthFrame0273.png, Hole, 3.00, 0, 0, Single
+depthFrame0274.png, Hole, 3.00, -30, 0, Single
+depthFrame0275.png, Hole, 3.00, -60, 0, Single
+depthFrame0276.png, Hole, 3.00, 30, 0, Single
+depthFrame0277.png, Hole, 3.00, -60, 0, Single
+depthFrame0292.png, Hole, 2.0, -60, 0, Single
+depthFrame0292.png, Hole, 2.0, -60, 0, Single
+depthFrame0293.png, Hole, 3.0, -30, 0, Single
+depthFrame0293.png, Hole, 3.0, -30, 0, Single
+depthFrame0297.png, Hole, 3.0, -60, 0, Single
+depthFrame0297.png, Hole, 3.0, -60, 0, Single
+depthFrame0300.png, Hole, 3.0, -60, 0, Single
+depthFrame0300.png, Hole, 3.0, -60, 0, Single
+depthFrame0301.png, Hole, 3.0, -30, 0, Single
+depthFrame0301.png, Hole, 3.0, -30, 0, Single
+depthFrame0303.png, Hole, 2.0, -60, 0, Single
+depthFrame0303.png, Hole, 2.0, -60, 0, Single
+depthFrame0304.png, Hole, 2.0, -30, 0, Single
+depthFrame0304.png, Hole, 2.0, -30, 0, Single
+depthFrame0305.png, Hole, 2.0, -30, 0, Single
+depthFrame0305.png, Hole, 2.0, -30, 0, Single
+depthFrame0312.png, Hole, 1.0, -30, 0, Single
+depthFrame0312.png, Hole, 1.0, -30, 0, Single
+depthFrame0368.png, Hole, 3.0, 0, 0, Single
+depthFrame0368.png, Victim, 3.0, 0, 0, Single
+depthFrame0369.png, Hole, 3.0, -30, 0, Single
+depthFrame0369.png, Victim, 3.0, -30, 0, Single
+depthFrame0370.png, Hole, 3.0, -60, 0, Single
+depthFrame0370.png, Victim, 3.0, -60, 0, Single
+depthFrame0371.png, Hole, 3.0, 30, 0, Single
+depthFrame0371.png, Victim, 3.0, 30, 0, Single
+depthFrame0372.png, Hole, 3.0, 60, 0, Single
+depthFrame0372.png, Victim, 3.0, 60, 0, Single
+depthFrame0373.png, Hole, 2.0, 0, 0, Single
+depthFrame0373.png, Victim, 2.0, 0, 0, Single
+depthFrame0374.png, Hole, 2.0, -30, 0, Single
+depthFrame0374.png, Victim, 2.0, -30, 0, Single
+depthFrame0375.png, Hole, 2.0, -60, 0, Single
+depthFrame0375.png, Victim, 2.0, -60, 0, Single
+depthFrame0376.png, Hole, 2.0, 30, 0, Single
+depthFrame0376.png, Victim, 2.0, 30, 0, Single
+depthFrame0377.png, Hole, 2.0, 60, 0, Single
+depthFrame0377.png, Victim, 2.0, 60, 0, Single
+depthFrame0378.png, Hole, 1.0, 0, 0, Single
+depthFrame0378.png, Victim, 1.0, 0, 0, Single
+depthFrame0379.png, Hole, 1.0, -30, 0, Single
+depthFrame0379.png, Victim, 1.0, -30, 0, Single
+depthFrame0380.png, Hole, 1.0, -60, 0, Single
+depthFrame0380.png, Victim, 1.0, -60, 0, Single
+depthFrame0381.png, Hole, 1.0, 30, 0, Single
+depthFrame0381.png, Victim, 1.0, 30, 0, Single
+depthFrame0382.png, Hole, 1.0, 60, 0, Single
+depthFrame0382.png, Victim, 1.0, 60, 0, Single
+depthFrame0383.png, Hole, 0.5, 0, 0, Single
+depthFrame0383.png, Victim, 0.5, 0, 0, Single
+depthFrame0384.png, Hole, 0.5, -30, 0, Single
+depthFrame0384.png, Victim, 0.5, -30, 0, Single
+depthFrame0385.png, Hole, 0.5, -60, 0, Single
+depthFrame0385.png, Victim, 0.5, -60, 0, Single
+depthFrame0386.png, Hole, 0.5, 30, 0, Single
+depthFrame0386.png, Victim, 0.5, 30, 0, Single
+depthFrame0387.png, Hole, 0.5, 60, 0, Single
+depthFrame0387.png, Victim, 0.5, 60, 0, Single
+thermalFrame0216.pgm, Hole, 0.50, 0, 0, Single
+thermalFrame0217.pgm, Hole, 0.50, 30, 0, Single
+thermalFrame0218.pgm, Hole, 0.50, -60, 0, Single
+thermalFrame0219.pgm, Hole, 0.50, -30, 0, Single
+thermalFrame0220.pgm, Hole, 0.50, -60, 0, Single
+thermalFrame0221.pgm, Hole, 1.00, 0, 0, Single
+thermalFrame0222.pgm, Hole, 1.00, 30, 0, Single
+thermalFrame0223.pgm, Hole, 1.00, 60, 0, Single
+thermalFrame0225.pgm, Hole, 1.00, -30, 0, Single
+thermalFrame0226.pgm, Hole, 1.00, -60, 0, Single
+thermalFrame0227.pgm, Hole, 2.00, 0, 0, Single
+thermalFrame0228.pgm, Hole, 2.00, 30, 0, Single
+thermalFrame0229.pgm, Hole, 2.00, -60, 0, Single
+thermalFrame0230.pgm, Hole, 2.00, -30, 0, Single
+thermalFrame0231.pgm, Hole, 2.00, -60, 0, Single
+thermalFrame0232.pgm, Hole, 3.00, 0, 0, Single
+thermalFrame0233.pgm, Hole, 3.00, 30, 0, Single
+thermalFrame0234.pgm, Hole, 3.00, 60, 0, Single
+thermalFrame0235.pgm, Hole, 3.00, -30, 0, Single
+thermalFrame0236.pgm, Hole, 3.00, -60, 0, Single
+thermalFrame0237.pgm, Hole, 0.50, 0, 0, Single
+thermalFrame0238.pgm, Hole, 0.50, 30, 0, Single
+thermalFrame0239.pgm, Hole, 0.50, 60, 0, Single
+thermalFrame0240.pgm, Hole, 0.50, -30, 0, Single
+thermalFrame0241.pgm, Hole, 0.50, -30, 0, Single
+thermalFrame0242.pgm, Hole, 1.00, 0, 0, Single
+thermalFrame0243.pgm, Hole, 1.00, 30, 0, Single
+thermalFrame0244.pgm, Hole, 1.00, -60, 0, Single
+thermalFrame0245.pgm, Hole, 1.00, -30, 0, Single
+thermalFrame0246.pgm, Hole, 1.00, -60, 0, Single
+thermalFrame0247.pgm, Hole, 2.00, 0, 0, Single
+thermalFrame0248.pgm, Hole, 2.00, 30, 0, Single
+thermalFrame0249.pgm, Hole, 2.00, 60, 0, Single
+thermalFrame0250.pgm, Hole, 2.00, -30, 0, Single
+thermalFrame0251.pgm, Hole, 2.00, -60, 0, Single
+thermalFrame0252.pgm, Hole, 3.00, 0, 0, Single
+thermalFrame0253.pgm, Hole, 3.00, -30, 0, Single
+thermalFrame0254.pgm, Hole, 3.00, -60, 0, Single
+thermalFrame0255.pgm, Hole, 3.00, 30, 0, Single
+thermalFrame0256.pgm, Hole, 3.00, 60, 0, Single
+thermalFrame0257.pgm, Hole, 0.50, 0, 0, Single
+thermalFrame0258.pgm, Hole, 0.50, -30, 0, Single
+thermalFrame0259.pgm, Hole, 0.50, -30, 0, Single
+thermalFrame0260.pgm, Hole, 0.50, 30, 0, Single
+thermalFrame0261.pgm, Hole, 0.50, 60, 0, Single
+thermalFrame0262.pgm, Hole, 1.00, 0, 0, Single
+thermalFrame0263.pgm, Hole, 1.00, 30, 0, Single
+thermalFrame0264.pgm, Hole, 1.00, 60, 0, Single
+thermalFrame0265.pgm, Hole, 1.00, -30, 0, Single
+thermalFrame0266.pgm, Hole, 1.00, -30, 0, Single
+thermalFrame0267.pgm, Hole, 2.00, 0, 0, Single
+thermalFrame0268.pgm, Hole, 2.00, 30, 0, Single
+thermalFrame0269.pgm, Hole, 2.00, 60, 0, Single
+thermalFrame0270.pgm, Hole, 2.00, -30, 0, Single
+thermalFrame0271.pgm, Hole, 2.00, -60, 0, Single
+thermalFrame0272.pgm, Hole, 3.00, 0, 0, Single
+thermalFrame0273.pgm, Hole, 3.00, 0, 0, Single
+thermalFrame0274.pgm, Hole, 3.00, -30, 0, Single
+thermalFrame0275.pgm, Hole, 3.00, -60, 0, Single
+thermalFrame0276.pgm, Hole, 3.00, 30, 0, Single
+thermalFrame0277.pgm, Hole, 3.00, -60, 0, Single
