@@ -892,3 +892,191 @@ thermalFrame0274.pgm, Hole, 3.00, -30, 0, Single
 thermalFrame0275.pgm, Hole, 3.00, -60, 0, Single
 thermalFrame0276.pgm, Hole, 3.00, 30, 0, Single
 thermalFrame0277.pgm, Hole, 3.00, -60, 0, Single
+pcl_bag0001.bag, QR, 0.5, 0, 0, 25 x 25
+pcl_bag0001.bag, Hazmat, 0.5, 0, 0, 6
+pcl_bag0001.bag, Hazmat, 0.5, 0, 0, 7
+pcl_bag0002.bag, QR, 0.5, -30, 0, 25 x 25
+pcl_bag0002.bag, Hazmat, 0.5, -30, 0, 6
+pcl_bag0002.bag, Hazmat, 0.5, -30, 0, 7
+pcl_bag0003.bag, QR, 0.5, -60, 0, 25 x 25
+pcl_bag0003.bag, Hazmat, 0.5, -60, 0, 6
+pcl_bag0003.bag, Hazmat, 0.5, -60, 0, 7
+pcl_bag0004.bag, Hazmat, 0.5, 30, 0, 6
+pcl_bag0004.bag, Hazmat, 0.5, 30, 0, 7
+pcl_bag0005.bag, Hazmat, 0.5, 60, 0, 6
+pcl_bag0005.bag, Hazmat, 0.5, 60, 0, 7
+pcl_bag0006.bag, QR, 1.0, 0, 0, 25 x 25
+pcl_bag0006.bag, Hazmat, 1.0, 0, 0, 6
+pcl_bag0006.bag, Hazmat, 1.0, 0, 0, 7
+pcl_bag0006.bag, Hazmat, 1.0, 0, 0, 3
+pcl_bag0007.bag, QR, 1.0, -30, 0, 25 x 25
+pcl_bag0007.bag, Hazmat, 1.0, -30, 0, 6
+pcl_bag0007.bag, Hazmat, 1.0, -30, 0, 7
+pcl_bag0007.bag, Hazmat, 1.0, -30, 0, 3
+pcl_bag0008.bag, QR, 1.0, -60, 0, 25 x 25
+pcl_bag0008.bag, Hazmat, 1.0, -60, 0, 6
+pcl_bag0008.bag, Hazmat, 1.0, -60, 0, 7
+pcl_bag0008.bag, Hazmat, 1.0, -60, 0, 3
+pcl_bag0009.bag, QR, 1.0, 30, 0, 25 x 25
+pcl_bag0009.bag, Hazmat, 1.0, 30, 0, 6
+pcl_bag0009.bag, Hazmat, 1.0, 30, 0, 7
+pcl_bag0009.bag, Hazmat, 1.0, 30, 0, 3
+pcl_bag0010.bag, QR, 1.0, 60, 0, 25 x 25
+pcl_bag0010.bag, Hazmat, 1.0, 60, 0, 6
+pcl_bag0010.bag, Hazmat, 1.0, 60, 0, 7
+pcl_bag0010.bag, Hazmat, 1.0, 60, 0, 3
+pcl_bag0011.bag, QR, 2.0, 0, 0, 25 x 25
+pcl_bag0011.bag, Hazmat, 2.0, 0, 0, 6
+pcl_bag0011.bag, Hazmat, 2.0, 0, 0, 7
+pcl_bag0011.bag, Hazmat, 2.0, 0, 0, 3
+pcl_bag0012.bag, QR, 2.0, -30, 0, 25 x 25
+pcl_bag0012.bag, Hazmat, 2.0, -30, 0, 6
+pcl_bag0012.bag, Hazmat, 2.0, -30, 0, 7
+pcl_bag0012.bag, Hazmat, 2.0, -30, 0, 3
+pcl_bag0013.bag, QR, 2.0, -60, 0, 25 x 25
+pcl_bag0013.bag, Hazmat, 2.0, -60, 0, 6
+pcl_bag0013.bag, Hazmat, 2.0, -60, 0, 7
+pcl_bag0013.bag, Hazmat, 2.0, -60, 0, 3
+pcl_bag0014.bag, QR, 2.0, 30, 0, 25 x 25
+pcl_bag0014.bag, Hazmat, 2.0, 30, 0, 6
+pcl_bag0014.bag, Hazmat, 2.0, 30, 0, 7
+pcl_bag0014.bag, Hazmat, 2.0, 30, 0, 3
+pcl_bag0015.bag, QR, 2.0, 60, 0, 25 x 25
+pcl_bag0015.bag, Hazmat, 2.0, 60, 0, 6
+pcl_bag0015.bag, Hazmat, 2.0, 60, 0, 7
+pcl_bag0015.bag, Hazmat, 2.0, 60, 0, 3
+pcl_bag0016.bag, QR, 3.0, 0, 0, 25 x 25
+pcl_bag0016.bag, Hazmat, 3.0, 0, 0, 6
+pcl_bag0016.bag, Hazmat, 3.0, 0, 0, 7
+pcl_bag0016.bag, Hazmat, 3.0, 0, 0, 3
+pcl_bag0017.bag, QR, 3.0, -30, 0, 25 x 25
+pcl_bag0017.bag, Hazmat, 3.0, -30, 0, 6
+pcl_bag0017.bag, Hazmat, 3.0, -30, 0, 7
+pcl_bag0017.bag, Hazmat, 3.0, -30, 0, 3
+pcl_bag0018.bag, QR, 3.0, -60, 0, 25 x 25
+pcl_bag0018.bag, Hazmat, 3.0, -60, 0, 6
+pcl_bag0018.bag, Hazmat, 3.0, -60, 0, 7
+pcl_bag0018.bag, Hazmat, 3.0, -60, 0, 3
+pcl_bag0019.bag, QR, 3.0, 30, 0, 25 x 25
+pcl_bag0019.bag, Hazmat, 3.0, 30, 0, 6
+pcl_bag0019.bag, Hazmat, 3.0, 30, 0, 7
+pcl_bag0019.bag, Hazmat, 3.0, 30, 0, 3
+pcl_bag0020.bag, QR, 3.0, 60, 0, 25 x 25
+pcl_bag0020.bag, Hazmat, 3.0, 60, 0, 6
+pcl_bag0020.bag, Hazmat, 3.0, 60, 0, 7
+pcl_bag0020.bag, Hazmat, 3.0, 60, 0, 3
+pcl_bag0021.bag, QR, 3.0, 0, 0, 25 x 25
+pcl_bag0021.bag, Hazmat, 3.0, 0, 0, 6
+pcl_bag0021.bag, Hazmat, 3.0, 0, 0, 7
+pcl_bag0021.bag, Hazmat, 3.0, 0, 0, 3
+pcl_bag0021.bag, Hole, 3.0, 0, 0, Single
+pcl_bag0021.bag, Victim, 3.0, 0, 0, Single
+pcl_bag0022.bag, QR, 3.0, -30, 0, 25 x 25
+pcl_bag0022.bag, Hazmat, 3.0, -30, 0, 6
+pcl_bag0022.bag, Hazmat, 3.0, -30, 0, 7
+pcl_bag0022.bag, Hazmat, 3.0, -30, 0, 3
+pcl_bag0022.bag, Hole, 3.0, -30, 0, Single
+pcl_bag0022.bag, Victim, 3.0, -30, 0, Single
+pcl_bag0023.bag, QR, 3.0, -60, 0, 25 x 25
+pcl_bag0023.bag, Hazmat, 3.0, -60, 0, 6
+pcl_bag0023.bag, Hazmat, 3.0, -60, 0, 7
+pcl_bag0023.bag, Hazmat, 3.0, -60, 0, 3
+pcl_bag0023.bag, Hole, 3.0, -60, 0, Single
+pcl_bag0023.bag, Victim, 3.0, -60, 0, Single
+pcl_bag0024.bag, QR, 3.0, 30, 0, 25 x 25
+pcl_bag0024.bag, Hazmat, 3.0, 30, 0, 6
+pcl_bag0024.bag, Hazmat, 3.0, 30, 0, 7
+pcl_bag0024.bag, Hazmat, 3.0, 30, 0, 3
+pcl_bag0024.bag, Hole, 3.0, 30, 0, Single
+pcl_bag0024.bag, Victim, 3.0, 30, 0, Single
+pcl_bag0025.bag, QR, 3.0, 60, 0, 25 x 25
+pcl_bag0025.bag, Hazmat, 3.0, 60, 0, 6
+pcl_bag0025.bag, Hazmat, 3.0, 60, 0, 7
+pcl_bag0025.bag, Hazmat, 3.0, 60, 0, 3
+pcl_bag0025.bag, Hole, 3.0, 60, 0, Single
+pcl_bag0025.bag, Victim, 3.0, 60, 0, Single
+pcl_bag0026.bag, QR, 2.0, 0, 0, 25 x 25
+pcl_bag0026.bag, Hazmat, 2.0, 0, 0, 6
+pcl_bag0026.bag, Hazmat, 2.0, 0, 0, 7
+pcl_bag0026.bag, Hazmat, 2.0, 0, 0, 3
+pcl_bag0026.bag, Hole, 2.0, 0, 0, Single
+pcl_bag0026.bag, Victim, 2.0, 0, 0, Single
+pcl_bag0027.bag, QR, 2.0, -30, 0, 25 x 25
+pcl_bag0027.bag, Hazmat, 2.0, -30, 0, 6
+pcl_bag0027.bag, Hazmat, 2.0, -30, 0, 7
+pcl_bag0027.bag, Hazmat, 2.0, -30, 0, 3
+pcl_bag0027.bag, Hole, 2.0, -30, 0, Single
+pcl_bag0027.bag, Victim, 2.0, -30, 0, Single
+pcl_bag0028.bag, QR, 2.0, -60, 0, 25 x 25
+pcl_bag0028.bag, Hazmat, 2.0, -60, 0, 6
+pcl_bag0028.bag, Hazmat, 2.0, -60, 0, 7
+pcl_bag0028.bag, Hazmat, 2.0, -60, 0, 3
+pcl_bag0028.bag, Hole, 2.0, -60, 0, Single
+pcl_bag0028.bag, Victim, 2.0, -60, 0, Single
+pcl_bag0029.bag, QR, 2.0, 30, 0, 25 x 25
+pcl_bag0029.bag, Hazmat, 2.0, 30, 0, 6
+pcl_bag0029.bag, Hazmat, 2.0, 30, 0, 7
+pcl_bag0029.bag, Hazmat, 2.0, 30, 0, 3
+pcl_bag0029.bag, Hole, 2.0, 30, 0, Single
+pcl_bag0029.bag, Victim, 2.0, 30, 0, Single
+pcl_bag0030.bag, QR, 2.0, 60, 0, 25 x 25
+pcl_bag0030.bag, Hazmat, 2.0, 60, 0, 6
+pcl_bag0030.bag, Hazmat, 2.0, 60, 0, 7
+pcl_bag0030.bag, Hazmat, 2.0, 60, 0, 3
+pcl_bag0030.bag, Hole, 2.0, 60, 0, Single
+pcl_bag0030.bag, Victim, 2.0, 60, 0, Single
+pcl_bag0031.bag, QR, 1.0, 0, 0, 25 x 25
+pcl_bag0031.bag, Hazmat, 1.0, 0, 0, 6
+pcl_bag0031.bag, Hazmat, 1.0, 0, 0, 7
+pcl_bag0031.bag, Hazmat, 1.0, 0, 0, 3
+pcl_bag0031.bag, Hole, 1.0, 0, 0, Single
+pcl_bag0031.bag, Victim, 1.0, 0, 0, Single
+pcl_bag0032.bag, QR, 1.0, -30, 0, 25 x 25
+pcl_bag0032.bag, Hazmat, 1.0, -30, 0, 6
+pcl_bag0032.bag, Hazmat, 1.0, -30, 0, 7
+pcl_bag0032.bag, Hazmat, 1.0, -30, 0, 3
+pcl_bag0032.bag, Hole, 1.0, -30, 0, Single
+pcl_bag0032.bag, Victim, 1.0, -30, 0, Single
+pcl_bag0033.bag, QR, 1.0, -60, 0, 25 x 25
+pcl_bag0033.bag, Hazmat, 1.0, -60, 0, 6
+pcl_bag0033.bag, Hazmat, 1.0, -60, 0, 7
+pcl_bag0033.bag, Hazmat, 1.0, -60, 0, 3
+pcl_bag0033.bag, Hole, 1.0, -60, 0, Single
+pcl_bag0033.bag, Victim, 1.0, -60, 0, Single
+pcl_bag0034.bag, QR, 1.0, 30, 0, 25 x 25
+pcl_bag0034.bag, Hazmat, 1.0, 30, 0, 6
+pcl_bag0034.bag, Hazmat, 1.0, 30, 0, 7
+pcl_bag0034.bag, Hazmat, 1.0, 30, 0, 3
+pcl_bag0034.bag, Hole, 1.0, 30, 0, Single
+pcl_bag0034.bag, Victim, 1.0, 30, 0, Single
+pcl_bag0035.bag, QR, 1.0, 60, 0, 25 x 25
+pcl_bag0035.bag, Hazmat, 1.0, 60, 0, 6
+pcl_bag0035.bag, Hazmat, 1.0, 60, 0, 7
+pcl_bag0035.bag, Hazmat, 1.0, 60, 0, 3
+pcl_bag0035.bag, Hole, 1.0, 60, 0, Single
+pcl_bag0035.bag, Victim, 1.0, 60, 0, Single
+pcl_bag0036.bag, QR, 0.5, 0, 0, 25 x 25
+pcl_bag0036.bag, Hazmat, 0.5, 0, 0, 6
+pcl_bag0036.bag, Hazmat, 0.5, 0, 0, 7
+pcl_bag0036.bag, Hole, 0.5, 0, 0, Single
+pcl_bag0036.bag, Victim, 0.5, 0, 0, Single
+pcl_bag0037.bag, QR, 0.5, -30, 0, 25 x 25
+pcl_bag0037.bag, Hazmat, 0.5, -30, 0, 6
+pcl_bag0037.bag, Hazmat, 0.5, -30, 0, 7
+pcl_bag0037.bag, Hole, 0.5, -30, 0, Single
+pcl_bag0037.bag, Victim, 0.5, -30, 0, Single
+pcl_bag0038.bag, QR, 0.5, -60, 0, 25 x 25
+pcl_bag0038.bag, Hazmat, 0.5, -60, 0, 6
+pcl_bag0038.bag, Hazmat, 0.5, -60, 0, 7
+pcl_bag0038.bag, Hole, 0.5, -60, 0, Single
+pcl_bag0038.bag, Victim, 0.5, -60, 0, Single
+pcl_bag0039.bag, Hazmat, 0.5, 30, 0, 6
+pcl_bag0039.bag, Hazmat, 0.5, 30, 0, 7
+pcl_bag0039.bag, Hole, 0.5, 30, 0, Single
+pcl_bag0039.bag, Victim, 0.5, 30, 0, Single
+pcl_bag0040.bag, Hazmat, 0.5, 60, 0, 6
+pcl_bag0040.bag, Hazmat, 0.5, 60, 0, 7
+pcl_bag0040.bag, Hole, 0.5, 60, 0, Single
+pcl_bag0040.bag, Victim, 0.5, 60, 0, Single
+pcl_bag0041.bag, Hazmat, 0.5, 60, 0, 6
+pcl_bag0041.bag, Hazmat, 0.5, 60, 0, 7
